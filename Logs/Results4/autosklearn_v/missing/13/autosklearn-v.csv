@@ -1,0 +1,9 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+dataset_187_abalone,14416.581701993942,0.25263157894736843,0.24012918873274208,0.25263157894736843,0.23350775826795886,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'none', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'lda', 'imputation:strategy': 'mean', 'preprocessor:__choice__': 'kernel_pca', 'rescaling:__choice__': 'minmax', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'classifier:lda:n_components': 228, 'classifier:lda:shrinkage': 'manual', 'classifier:lda:tol': 0.0009804854858731986, 'preprocessor:kernel_pca:kernel': 'rbf', 'preprocessor:kernel_pca:n_components': 100, 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.42022677858543966, 'classifier:lda:shrinkage_factor': 0.18481114727050385, 'preprocessor:kernel_pca:gamma': 1.0},
+dataset_properties={
+  'task': 2,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': True,
+  'target_type': 'classification',
+  'signed': False}))]",0.25263157894736843,0.0,0.24012918873274208,0.0,0.25263157894736843,0.0,0.23350775826795886,0.0

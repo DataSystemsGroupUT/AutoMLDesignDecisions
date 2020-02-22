@@ -1,0 +1,18 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+phpEZ030X,14401.290639162064,0.75,0.8409090909090908,0.75,0.7420634920634921,"Pipeline(memory=None,
+     steps=[('stackingestimator', StackingEstimator(estimator=GaussianNB(priors=None, var_smoothing=1e-09))), ('randomforestclassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features=0.4, max_leaf_nodes=None,
+            min_impuri...obs=None,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])",0.75,0.0,0.8409090909090908,0.0,0.75,0.0,0.7420634920634921,0.0
+phpGUrE90,14402.45691537857,0.8674242424242424,0.8694317284489185,0.8674242424242424,0.8681053484218789,"Pipeline(memory=None,
+     steps=[('stackingestimator-1', StackingEstimator(estimator=GaussianNB(priors=None, var_smoothing=1e-09))), ('stackingestimator-2', StackingEstimator(estimator=GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.5, loss='deviance', max_depth=9,
+              ...tors=100, n_jobs=None,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])",0.8674242424242424,0.0,0.8694317284489185,0.0,0.8674242424242424,0.0,0.8681053484218789,0.0
+phpHyLSNF,14582.466665744781,0.8951048951048951,0.915431627196333,0.8951048951048951,0.8912092281955778,"Pipeline(memory=None,
+     steps=[('onehotencoder', OneHotEncoder(categorical_features=[True, True, False, True, True, True, False, False, False, False, False, True, False, False, False, False, False, False, False, True, False, False, False, False, False, False, True, True, False, True, False, False, True, False, False, False...g=1e-09))), ('bernoullinb', BernoulliNB(alpha=0.1, binarize=0.0, class_prior=None, fit_prior=True))])",0.8951048951048951,0.0,0.915431627196333,0.0,0.8951048951048951,0.0,0.8912092281955778,0.0
+phphQEck0,14412.881936788559,0.9995103240022851,0.9995112304080515,0.9995103240022851,0.9995105059976909,"Pipeline(memory=None,
+     steps=[('kneighborsclassifier', KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=None, n_neighbors=3, p=1,
+           weights='distance'))])",0.9995103240022851,0.0,0.9995112304080515,0.0,0.9995103240022851,0.0,0.9995105059976909,0.0

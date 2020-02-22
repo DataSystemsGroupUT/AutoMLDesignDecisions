@@ -1,0 +1,5 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+openml_phpJNxH0q,12010.0,0.9828571428571429,0.9828511404561825,0.9828571428571429,0.9828174558722335,"best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: [-D]",0.9828571428571429,0.0,0.9828511404561825,0.0,0.9828571428571429,0.0,0.9828174558722335,0.0
+phpchCuL5,12049.0,1.0,1.0,1.0,1.0,"best classifier: weka.classifiers.trees.REPTree
+arguments: [-M, 9, -V, 0.0032399393731372215, -L, -1, -P]",1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0

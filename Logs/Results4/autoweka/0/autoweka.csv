@@ -1,0 +1,5 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+AP_Breast_Lung,13308.0,0.9745762711864407,0.9745188676395057,0.9745762711864406,0.974461759999521,"best classifier: weka.classifiers.meta.RandomSubSpace
+arguments: [-I, 3, -P, 0.6911532042968401, -S, 1, -W, weka.classifiers.rules.JRip, --, -N, 3.1203009230464795, -E, -O, 4]",0.9745762711864407,0.0,0.9745188676395057,0.0,0.9745762711864406,0.0,0.974461759999521,0.0
+AP_Omentum_Ovary,14373.0,0.782608695652174,0.7740220798691564,0.782608695652174,0.7601945183573423,"best classifier: weka.classifiers.functions.SimpleLogistic
+arguments: [-W, 0.3036505813397621]",0.782608695652174,0.0,0.7740220798691564,0.0,0.782608695652174,0.0,0.7601945183573423,0.0

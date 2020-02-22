@@ -1,0 +1,19 @@
+,time_1,error_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+AP_Breast_Lung,14430.199415445328,,0.9745762711864406,0.9745188676395057,0.9745762711864406,0.974461759999521,"Pipeline(memory=None,
+     steps=[('extratreesclassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='entropy',
+           max_depth=None, max_features=0.35000000000000003,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=3,
+           min_samples_split=7, min_weight_fraction_leaf=0.0,
+           n_estimators=100, n_jobs=None, oob_score=False,
+           random_state=None, verbose=0, warm_start=False))])",0.9745762711864406,0.0,0.9745188676395057,0.0,0.9745762711864406,0.0,0.974461759999521,0.0
+AP_Omentum_Ovary,14466.584115743637,,0.8405797101449275,0.8412764771460424,0.8405797101449275,0.8289855072463768,"Pipeline(memory=None,
+     steps=[('stackingestimator', StackingEstimator(estimator=ExtraTreesClassifier(bootstrap=True, class_weight=None, criterion='gini',
+           max_depth=None, max_features=0.6500000000000001,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_le...tors=100, n_jobs=None, oob_score=False,
+           random_state=None, verbose=0, warm_start=False))])",0.8405797101449275,0.0,0.8412764771460424,0.0,0.8405797101449275,0.0,0.8289855072463768,0.0
+AirlinesCodrnaAdult,15439.681920051575,A pipeline has not yet been optimized. Please call fit() first.,,,,,,,,,,,,,
+Amazon,14405.273016929626,,0.7466666666666667,0.7929644608115197,0.7466666666666667,0.7373038383171,"Pipeline(memory=None,
+     steps=[('binarizer', Binarizer(copy=True, threshold=0.75)), ('multinomialnb', MultinomialNB(alpha=0.1, class_prior=None, fit_prior=False))])",0.7466666666666667,0.0,0.7929644608115197,0.0,0.7466666666666667,0.0,0.7373038383171,0.0
+cifar-10,442.3566164970398,A pipeline has not yet been optimized. Please call fit() first.,,,,,,,,,,,,,

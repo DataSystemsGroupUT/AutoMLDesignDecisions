@@ -1,0 +1,9 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+phpHyLSNF,14404.345839738846,0.9020979020979021,0.9141317016317018,0.9020979020979021,0.8983599364926018,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'none', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'liblinear_svc', 'imputation:strategy': 'mean', 'preprocessor:__choice__': 'select_percentile_classification', 'rescaling:__choice__': 'quantile_transformer', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'classifier:liblinear_svc:C': 826.988645354942, 'classifier:liblinear_svc:dual': 'False', 'classifier:liblinear_svc:fit_intercept': 'True', 'classifier:liblinear_svc:intercept_scaling': 1, 'classifier:liblinear_svc:loss': 'squared_hinge', 'classifier:liblinear_svc:multi_class': 'ovr', 'classifier:liblinear_svc:penalty': 'l2', 'classifier:liblinear_svc:tol': 1.3573189536811187e-05, 'preprocessor:select_percentile_classification:percentile': 52.60565673228599, 'preprocessor:select_percentile_classification:score_func': 'f_classif', 'rescaling:quantile_transformer:n_quantiles': 649, 'rescaling:quantile_transformer:output_distribution': 'uniform'},
+dataset_properties={
+  'task': 2,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': True,
+  'target_type': 'classification',
+  'signed': False}))]",0.9020979020979021,0.0,0.9141317016317018,0.0,0.9020979020979021,0.0,0.8983599364926018,0.0

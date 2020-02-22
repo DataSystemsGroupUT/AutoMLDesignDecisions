@@ -1,0 +1,5 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+lymphoma_2classes,12898.0,0.75,0.763888888888889,0.75,0.7517482517482517,"best classifier: weka.classifiers.bayes.BayesNet
+arguments: [-D, -Q, weka.classifiers.bayes.net.search.local.TAN]",0.75,0.0,0.763888888888889,0.0,0.75,0.0,0.7517482517482517,0.0
+mnist_784,14110.0,0.9233714285714285,0.9231427298638325,0.9233714285714286,0.9231309660428672,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",0.9233714285714285,0.0,0.9231427298638325,0.0,0.9233714285714286,0.0,0.9231309660428672,0.0

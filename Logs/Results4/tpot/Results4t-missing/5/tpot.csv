@@ -1,0 +1,5 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+phptd5jYj,14463.771769046783,0.9473684210526315,0.9503840491327872,0.9473684210526315,0.9475998251647649,"Pipeline(memory=None,
+     steps=[('polynomialfeatures', PolynomialFeatures(degree=2, include_bias=False, interaction_only=False)), ('linearsvc', LinearSVC(C=5.0, class_weight=None, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='hinge', max_iter=1000, multi_class='ovr',
+     penalty='l2', random_state=None, tol=0.001, verbose=0))])",0.9473684210526315,0.0,0.9503840491327872,0.0,0.9473684210526315,0.0,0.9475998251647649,0.0

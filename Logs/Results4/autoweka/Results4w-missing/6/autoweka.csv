@@ -1,0 +1,3 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+dataset_189_baseball,12612.0,0.9223880597014926,0.9040111940298508,0.9223880597014925,0.9082274677034992,"best classifier: weka.classifiers.meta.RandomSubSpace
+arguments: [-I, 4, -P, 0.788432390437461, -S, 1, -W, weka.classifiers.functions.Logistic, --, -R, 2.0346699699171628E-11]",0.9223880597014926,0.0,0.9040111940298508,0.0,0.9223880597014925,0.0,0.9082274677034992,0.0

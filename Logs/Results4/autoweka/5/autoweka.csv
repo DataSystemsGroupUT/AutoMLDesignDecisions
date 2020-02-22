@@ -1,0 +1,5 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+dataset_60_waveform-5000,12382.0,0.8615999999999999,0.8616561508695837,0.8616,0.8616026068734338,"best classifier: weka.classifiers.functions.Logistic
+arguments: [-R, 0.0885405771893914]",0.8615999999999999,0.0,0.8616561508695837,0.0,0.8616,0.0,0.8616026068734338,0.0
+dataset_9_autos,12022.0,0.8653846153846153,0.8685673301057917,0.8653846153846154,0.8653245021531466,"best classifier: weka.classifiers.rules.PART
+arguments: [-M, 1, -B]",0.8653846153846153,0.0,0.8685673301057917,0.0,0.8653846153846154,0.0,0.8653245021531466,0.0

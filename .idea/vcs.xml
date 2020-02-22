@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Tools Codes/OBOE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Tools Codes/Recipe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Tools Codes/hyperopt/hyperopt-sklearn" vcs="Git" />
+  </component>
+</project>

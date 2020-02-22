@@ -1,0 +1,9 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+solar-flare_1,14396.462480306625,0.759493670886076,0.7490227103499627,0.759493670886076,0.744994246260069,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'none', 'categorical_encoding:__choice__': 'no_encoding', 'classifier:__choice__': 'libsvm_svc', 'imputation:strategy': 'most_frequent', 'preprocessor:__choice__': 'feature_agglomeration', 'rescaling:__choice__': 'robust_scaler', 'classifier:libsvm_svc:C': 0.9614923022648388, 'classifier:libsvm_svc:gamma': 0.09813398824940825, 'classifier:libsvm_svc:kernel': 'rbf', 'classifier:libsvm_svc:max_iter': -1, 'classifier:libsvm_svc:shrinking': 'True', 'classifier:libsvm_svc:tol': 0.010568822073316672, 'preprocessor:feature_agglomeration:affinity': 'cosine', 'preprocessor:feature_agglomeration:linkage': 'complete', 'preprocessor:feature_agglomeration:n_clusters': 65, 'preprocessor:feature_agglomeration:pooling_func': 'median', 'rescaling:robust_scaler:q_max': 0.8103140048087978, 'rescaling:robust_scaler:q_min': 0.10152913197493314},
+dataset_properties={
+  'task': 2,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': True,
+  'target_type': 'classification',
+  'signed': False}))]",0.759493670886076,0.0,0.7490227103499627,0.0,0.759493670886076,0.0,0.744994246260069,0.0

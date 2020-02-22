@@ -1,0 +1,25 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+phpYLeydd,14558.307830572128,0.690562980963953,0.6946258307498485,0.690562980963953,0.6798387990168009,"Pipeline(memory=None,
+     steps=[('polynomialfeatures', PolynomialFeatures(degree=2, include_bias=False, interaction_only=False)), ('extratreesclassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=None, max_features=0.9000000000000001,
+           max_leaf_nodes=None, min...tors=100, n_jobs=None, oob_score=False,
+           random_state=None, verbose=0, warm_start=False))])",0.690562980963953,0.0,0.6946258307498485,0.0,0.690562980963953,0.0,0.6798387990168009,0.0
+phpvcoG8S,14690.076296806335,0.6682363585126737,0.6674884562021358,0.6682363585126736,0.6613356220947455,"Pipeline(memory=None,
+     steps=[('extratreesclassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='entropy',
+           max_depth=None, max_features=0.7000000000000001,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=13,
+           min_samples_split=17, min_weight_fraction_leaf=0.0,
+           n_estimators=100, n_jobs=None, oob_score=False,
+           random_state=None, verbose=0, warm_start=False))])",0.6682363585126737,0.0,0.6674884562021358,0.0,0.6682363585126736,0.0,0.6613356220947455,0.0
+shuttle,14434.92938041687,0.9997241379310344,0.9997242233699237,0.9997241379310344,0.9997082939874944,"Pipeline(memory=None,
+     steps=[('gradientboostingclassifier', GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.1, loss='deviance', max_depth=2,
+              max_features=0.55, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=None,
+              m....8500000000000001, tol=0.0001,
+              validation_fraction=0.1, verbose=0, warm_start=False))])",0.9997241379310344,0.0,0.9997242233699237,0.0,0.9997241379310344,0.0,0.9997082939874944,0.0
+solar-flare_1,14400.866743087769,0.759493670886076,0.7363924050632911,0.759493670886076,0.747542418529491,"Pipeline(memory=None,
+     steps=[('stackingestimator-1', StackingEstimator(estimator=BernoulliNB(alpha=0.1, binarize=0.0, class_prior=None, fit_prior=True))), ('stackingestimator-2', StackingEstimator(estimator=XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+       colsample_bytree=1, gamma=0, learning_r...ors=100, n_jobs=None, oob_score=False,
+            random_state=None, verbose=0, warm_start=False))])",0.759493670886076,0.0,0.7363924050632911,0.0,0.759493670886076,0.0,0.747542418529491,0.0

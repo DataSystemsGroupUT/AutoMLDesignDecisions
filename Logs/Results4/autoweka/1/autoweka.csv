@@ -1,0 +1,5 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+AirlinesCodrnaAdult,13492.0,0.65483027362759,0.6971944887157948,0.65483027362759,0.6497946434135937,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",0.65483027362759,0.0,0.6971944887157948,0.0,0.65483027362759,0.0,0.6497946434135937,0.0
+Amazon,13857.0,0.49866666666666665,0.525736271136271,0.49866666666666665,0.4948851392022424,"best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: []",0.49866666666666665,0.0,0.525736271136271,0.0,0.49866666666666665,0.0,0.4948851392022424,0.0

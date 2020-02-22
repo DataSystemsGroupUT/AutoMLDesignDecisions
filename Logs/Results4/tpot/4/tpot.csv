@@ -1,0 +1,23 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std,error_1
+php3CTpvq,14543.986703395844,,,,,,,,,,,,,,A pipeline has not yet been optimized. Please call fit() first.
+phpB0xrNj,14514.8129196167,0.961025641025641,0.961766866100792,0.961025641025641,0.9611044897885899,"Pipeline(memory=None,
+     steps=[('logisticregression', LogisticRegression(C=0.5, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False))])",0.961025641025641,0.0,0.961766866100792,0.0,0.961025641025641,0.0,0.9611044897885899,0.0,
+phpGReJjU,14443.900320529938,1.0,1.0,1.0,1.0,"Pipeline(memory=None,
+     steps=[('decisiontreeclassifier', DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=10,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=4, min_samples_split=19,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best'))])",1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,
+phpfLuQE4,14475.309634923935,0.8646153846153846,0.8663048197433055,0.8646153846153846,0.8646410205429719,"Pipeline(memory=None,
+     steps=[('randomforestclassifier', RandomForestClassifier(bootstrap=False, class_weight=None,
+            criterion='entropy', max_depth=None, max_features=0.4,
+            max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=3,
+            min_samples_split=15, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=None, oob_score=False,
+            random_state=None, verbose=0, warm_start=False))])",0.8646153846153846,0.0,0.8663048197433055,0.0,0.8646153846153846,0.0,0.8646410205429719,0.0,
+phprAeXmK,14603.96918964386,,,,,,,,,,,,,,A pipeline has not yet been optimized. Please call fit() first.

@@ -1,0 +1,28 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+arrhythmia,14624.335767507553,0.8495575221238938,0.8631094915842443,0.8495575221238938,0.8479845789888724,"Pipeline(memory=None,
+     steps=[('variancethreshold', VarianceThreshold(threshold=0.005)), ('gradientboostingclassifier', GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.5, loss='deviance', max_depth=8,
+              max_features=0.9000000000000001, max_leaf_nodes=None,
+        ...    subsample=1.0, tol=0.0001, validation_fraction=0.1,
+              verbose=0, warm_start=False))])",0.8495575221238938,0.0,0.8631094915842443,0.0,0.8495575221238938,0.0,0.8479845789888724,0.0
+audiology,14400.647976636887,0.9122807017543859,0.9218154080854309,0.9122807017543859,0.9066792139992381,"Pipeline(memory=None,
+     steps=[('gradientboostingclassifier', GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.1, loss='deviance', max_depth=7,
+              max_features=0.05, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=None,
+              m...   subsample=0.55, tol=0.0001, validation_fraction=0.1,
+              verbose=0, warm_start=False))])",0.9122807017543859,0.0,0.9218154080854309,0.0,0.9122807017543859,0.0,0.9066792139992381,0.0
+dataset_194_eucalyptus,14403.71001625061,0.6956521739130435,0.692578675459701,0.6956521739130435,0.6817516806342635,"Pipeline(memory=None,
+     steps=[('featureunion', FeatureUnion(n_jobs=None,
+       transformer_list=[('functiontransformer', FunctionTransformer(accept_sparse=False, check_inverse=True,
+          func=<function copy at 0x7f8713dd9d90>, inv_kw_args=None,
+          inverse_func=None, kw_args=None, pass_y='deprecated',
+        ...   subsample=0.25, tol=0.0001, validation_fraction=0.1,
+              verbose=0, warm_start=False))])",0.6956521739130435,0.0,0.692578675459701,0.0,0.6956521739130435,0.0,0.6817516806342635,0.0
+dataset_42_soybean,14430.113756895065,0.9298245614035088,0.8949100555748755,0.9298245614035088,0.9096592054849769,"Pipeline(memory=None,
+     steps=[('onehotencoder', OneHotEncoder(categorical_features=[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True],
+       dtype=<class 'float'>...ng=True)), ('bernoullinb', BernoulliNB(alpha=0.01, binarize=0.0, class_prior=None, fit_prior=True))])",0.9298245614035088,0.0,0.8949100555748755,0.0,0.9298245614035088,0.0,0.9096592054849769,0.0
+dataset_54_vehicle,14406.49522304535,0.8584905660377359,0.8590863713505222,0.8584905660377359,0.8574675470061507,"Pipeline(memory=None,
+     steps=[('robustscaler', RobustScaler(copy=True, quantile_range=(25.0, 75.0), with_centering=True,
+       with_scaling=True)), ('polynomialfeatures', PolynomialFeatures(degree=2, include_bias=False, interaction_only=False)), ('stackingestimator', StackingEstimator(estimator=BernoulliNB(alpha=1.0, bin...penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False))])",0.8584905660377359,0.0,0.8590863713505222,0.0,0.8584905660377359,0.0,0.8574675470061507,0.0

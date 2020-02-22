@@ -1,0 +1,85 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+avila-tr,14441.99404168129,0.9971247843588269,0.997132070258477,0.9971247843588269,0.9971112869010319,"Pipeline(memory=None,
+     steps=[('xgbclassifier', XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+       colsample_bytree=1, gamma=0, learning_rate=0.5, max_delta_step=0,
+       max_depth=5, min_child_weight=4, missing=None, n_estimators=100,
+       n_jobs=1, nthread=1, objective='multi:softprob', random_state=0,
+       reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+       silent=True, subsample=0.7500000000000001))])",0.9971247843588269,0.0,0.997132070258477,0.0,0.9971247843588269,0.0,0.9971112869010319,0.0
+churn,14434.2573158741,0.964,0.9637871643279435,0.964,0.9623613889382603,"Pipeline(memory=None,
+     steps=[('polynomialfeatures', PolynomialFeatures(degree=2, include_bias=False, interaction_only=False)), ('extratreesclassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=None, max_features=0.5, max_leaf_nodes=None,
+           min_impurity_decre...tors=100, n_jobs=None,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])",0.964,0.0,0.9637871643279435,0.0,0.964,0.0,0.9623613889382603,0.0
+dataset_189_baseball,14406.30370426178,0.9343283582089552,0.9214990876339306,0.9343283582089552,0.9232751079766006,"Pipeline(memory=None,
+     steps=[('stackingestimator', StackingEstimator(estimator=GaussianNB(priors=None, var_smoothing=1e-09))), ('onehotencoder', OneHotEncoder(categorical_features=[True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, Tr...obs=None,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])",0.9343283582089552,0.0,0.9214990876339306,0.0,0.9343283582089552,0.0,0.9232751079766006,0.0
+dataset_26_nursery,14417.517266511917,0.9996913580246913,0.9993863903586125,0.9996913580246913,0.9995379611148074,"Pipeline(memory=None,
+     steps=[('polynomialfeatures', PolynomialFeatures(degree=2, include_bias=False, interaction_only=False)), ('gradientboostingclassifier', GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.5, loss='deviance', max_depth=3,
+              max_features=0.35000000....6500000000000001, tol=0.0001,
+              validation_fraction=0.1, verbose=0, warm_start=False))])",0.9996913580246913,0.0,0.9993863903586125,0.0,0.9996913580246913,0.0,0.9995379611148074,0.0
+dataset_28_optdigits,14503.084581375122,0.9850533807829182,0.9853987646378615,0.9850533807829182,0.9850824959850343,"Pipeline(memory=None,
+     steps=[('polynomialfeatures', PolynomialFeatures(degree=2, include_bias=False, interaction_only=False)), ('stackingestimator', StackingEstimator(estimator=LogisticRegression(C=0.01, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+  ...tors=100, n_jobs=None,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])",0.9850533807829182,0.0,0.9853987646378615,0.0,0.9850533807829182,0.0,0.9850824959850343,0.0
+dataset_36_segment,14412.104278802872,0.9792387543252595,0.9794766103784966,0.9792387543252595,0.9792915085341137,"Pipeline(memory=None,
+     steps=[('stackingestimator', StackingEstimator(estimator=LinearSVC(C=0.0001, class_weight=None, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='hinge', max_iter=1000, multi_class='ovr',
+     penalty='l2', random_state=None, tol=0.01, verbose=0))), ('gradientboostingclassifier', Gradie...    subsample=1.0, tol=0.0001, validation_fraction=0.1,
+              verbose=0, warm_start=False))])",0.9792387543252595,0.0,0.9794766103784966,0.0,0.9792387543252595,0.0,0.9792915085341137,0.0
+dataset_40_sonar,14401.964828252792,0.8653846153846154,0.8661242603550294,0.8653846153846154,0.8654344175986796,"Pipeline(memory=None,
+     steps=[('stackingestimator-1', StackingEstimator(estimator=ExtraTreesClassifier(bootstrap=True, class_weight=None, criterion='gini',
+           max_depth=None, max_features=0.7500000000000001,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_...ki',
+           metric_params=None, n_jobs=None, n_neighbors=3, p=2,
+           weights='uniform'))])",0.8653846153846154,0.0,0.8661242603550294,0.0,0.8653846153846154,0.0,0.8654344175986796,0.0
+dataset_59_ionosphere,14401.18794631958,0.9431818181818182,0.9443175176664365,0.9431818181818182,0.9425257564958206,"Pipeline(memory=None,
+     steps=[('normalizer', Normalizer(copy=True, norm='l2')), ('pca', PCA(copy=True, iterated_power=5, n_components=None, random_state=None,
+  svd_solver='randomized', tol=0.0, whiten=False)), ('variancethreshold', VarianceThreshold(threshold=0.005)), ('extratreesclassifier', ExtraTreesClassifier(bootstr...tors=100, n_jobs=None,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])",0.9431818181818182,0.0,0.9443175176664365,0.0,0.9431818181818182,0.0,0.9425257564958206,0.0
+gina_agnostic,14446.686315059662,0.9423298731257209,0.9423512916318216,0.9423298731257209,0.9423355608181572,"Pipeline(memory=None,
+     steps=[('selectpercentile', SelectPercentile(percentile=53,
+         score_func=<function f_classif at 0x7f013dd5e2f0>)), ('extratreesclassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=None, max_features=0.8, max_leaf_nodes=None,
+           m...tors=100, n_jobs=None,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])",0.9423298731257209,0.0,0.9423512916318216,0.0,0.9423298731257209,0.0,0.9423355608181572,0.0
+jungle_chess_2pcs_endgame_panther_lion,14590.632793664932,1.0,1.0,1.0,1.0,"Pipeline(memory=None,
+     steps=[('randomforestclassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features=0.4, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=None,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])",1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+page-blocks,14436.832923650742,0.9810080350620891,0.9811328241460501,0.9810080350620891,0.9810653115387469,"Pipeline(memory=None,
+     steps=[('rfe', RFE(estimator=ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=None, max_features=0.25, max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=1, min_samples_split=2,
+           min...obs=None,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])",0.9810080350620891,0.0,0.9811328241460501,0.0,0.9810080350620891,0.0,0.9810653115387469,0.0
+php5OMDBD,14410.207102060318,1.0,1.0,1.0,1.0,"Pipeline(memory=None,
+     steps=[('gaussiannb', GaussianNB(priors=None, var_smoothing=1e-09))])",1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+phpSZJq5T,14430.597743034363,0.9444444444444444,0.9555555555555556,0.9444444444444444,0.9454715219421103,"Pipeline(memory=None,
+     steps=[('stackingestimator-1', StackingEstimator(estimator=LogisticRegression(C=25.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbo....6000000000000001, tol=0.0001,
+              validation_fraction=0.1, verbose=0, warm_start=False))])",0.9444444444444444,0.0,0.9555555555555556,0.0,0.9444444444444444,0.0,0.9454715219421103,0.0
+phpWfYmlu,14413.460182666779,0.9767567567567568,0.9767618531026162,0.9767567567567568,0.9767567363828341,"Pipeline(memory=None,
+     steps=[('stackingestimator-1', StackingEstimator(estimator=GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=1.0, loss='deviance', max_depth=6,
+              max_features=0.4, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=N...obs=None,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])",0.9767567567567568,0.0,0.9767618531026162,0.0,0.9767567567567568,0.0,0.9767567363828341,0.0
+vowel,14420.774234294891,1.0,1.0,1.0,1.0,"Pipeline(memory=None,
+     steps=[('polynomialfeatures', PolynomialFeatures(degree=2, include_bias=False, interaction_only=False)), ('logisticregression', LogisticRegression(C=25.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l1', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False))])",1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0

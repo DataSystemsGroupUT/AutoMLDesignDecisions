@@ -1,0 +1,7 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+phpEZ030X,12056.0,0.75,0.7738095238095237,0.75,0.75,"best classifier: weka.classifiers.rules.OneR
+arguments: [-B, 7]",0.75,0.0,0.7738095238095237,0.0,0.75,0.0,0.75,0.0
+phpGUrE90,13139.0,0.8295454545454546,0.8291837716938931,0.8295454545454546,0.8293521383769491,"best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 1.152106262167039, -N, 0, -M, -K, weka.classifiers.functions.supportVector.Puk -S 5.350239851811477 -O 0.16585023869544807]",0.8295454545454546,0.0,0.8291837716938931,0.0,0.8295454545454546,0.0,0.8293521383769491,0.0
+phphQEck0,13362.0,0.8869338121276422,0.8848400536130826,0.8869338121276422,0.8857212851498345,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",0.8869338121276422,0.0,0.8848400536130826,0.0,0.8869338121276422,0.0,0.8857212851498345,0.0

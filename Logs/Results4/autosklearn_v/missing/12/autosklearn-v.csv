@@ -1,0 +1,17 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+phpTJRsqa,14397.9223549366,0.6522448979591837,0.6590409272746193,0.6522448979591837,0.6409546481015348,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'none', 'categorical_encoding:__choice__': 'no_encoding', 'classifier:__choice__': 'adaboost', 'imputation:strategy': 'median', 'preprocessor:__choice__': 'polynomial', 'rescaling:__choice__': 'quantile_transformer', 'classifier:adaboost:algorithm': 'SAMME', 'classifier:adaboost:learning_rate': 0.3141389054030903, 'classifier:adaboost:max_depth': 9, 'classifier:adaboost:n_estimators': 415, 'preprocessor:polynomial:degree': 2, 'preprocessor:polynomial:include_bias': 'True', 'preprocessor:polynomial:interaction_only': 'True', 'rescaling:quantile_transformer:n_quantiles': 263, 'rescaling:quantile_transformer:output_distribution': 'normal'},
+dataset_properties={
+  'task': 2,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': True,
+  'target_type': 'classification',
+  'signed': False}))]",0.6522448979591837,0.0,0.6590409272746193,0.0,0.6522448979591837,0.0,0.6409546481015348,0.0
+phpvtdNPU,14423.662999629974,0.75,0.6888888888888888,0.75,0.7163299663299663,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'none', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'random_forest', 'imputation:strategy': 'median', 'preprocessor:__choice__': 'select_rates', 'rescaling:__choice__': 'none', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'classifier:random_forest:bootstrap': 'True', 'classifier:random_forest:criterion': 'gini', 'classifier:random_forest:max_depth': 'None', 'classifier:random_forest:max_features': 0.5577277441265174, 'classifier:random_forest:max_leaf_nodes': 'None', 'classifier:random_forest:min_impurity_decrease': 0.0, 'classifier:random_forest:min_samples_leaf': 1, 'classifier:random_forest:min_samples_split': 2, 'classifier:random_forest:min_weight_fraction_leaf': 0.0, 'classifier:random_forest:n_estimators': 100, 'preprocessor:select_rates:alpha': 0.4396331298415846, 'preprocessor:select_rates:mode': 'fdr', 'preprocessor:select_rates:score_func': 'chi2', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.010000000000000004},
+dataset_properties={
+  'task': 2,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': True,
+  'target_type': 'classification',
+  'signed': False}))]",0.75,0.0,0.6888888888888888,0.0,0.75,0.0,0.7163299663299663,0.0

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b34f245-28ff-4c03-91f9-1a5b876de68c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/Analysis_bench-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/Analysis_bench_wilcoxon-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/Analysis_search_space-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/Analysis_wilcoxon-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/cdf_figures-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/factorial_anova_atm-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/factorial_anova_binary-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/factorial_anova_binary_atm-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/factorial_anova_multi-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/factorial_anova_multi_atm-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/factorial_anova_tpot-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/one_way_anova_binary-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/one_way_anova_binary_atm-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/one_way_anova_multi-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/one_way_anova_multi_atm-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/one_way_anova_time_budget_atm-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/one_way_anova_time_buget_analysis-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/Analysis_bench.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/Analysis_bench_wilcoxon.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/Analysis_search_space.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/Analysis_wilcoxon.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Comparing_TPOT_Acc_with_Recipe_Acc_(10_Min).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Comparing_TPOT_Acc_with_Recipe_Acc_(30_Min).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Comparing_TPOT_Acc_with_Recipe_Acc_(4_Hours).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Comparing_TPOT_Acc_with_Recipe_Acc_(60_Min).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_Combined_Meta-Learning_and_Ensembling_(10_Min).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_Combined_Meta-Learning_and_Ensembling_(30_Min).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_Combined_Meta-Learning_and_Ensembling_(4_Hourse).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_Combined_Meta-Learning_and_Ensembling_(60_Min).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_Ensembling_(10_Min).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_Ensembling_(30_Min).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_Ensembling_(4_Hours).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_Ensembling_(60_Min).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_Ensembling_10_Min_(F1_Score).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_Ensembling_60_Min_(F1_Score).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_Meta-Learning_(10_Min).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_Meta-Learning_(30_Min).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_Meta-Learning_(4_Hours).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_Meta-Learning_(60_Min).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_ATM.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_AutoSKLearn-e.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_AutoSKLearn-e_(F1_Score).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_AutoSKLearn-m.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_AutoSKLearn-m_(F1_Score).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_AutoSKLearn-v.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_AutoSKLearn-v_(F1_Score).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_AutoSKLearn.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_AutoSKLearn_(F1_Score).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_AutoWeka.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_AutoWeka_(F1_Score).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_Recipe.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_Recipe_(F1_Score).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_SmartML.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_SmartML_(F1_Score).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_TPOT.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/bench_figs/Effect_of_time_bduget_Increasing_for_TPOT_(F1_Score).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/cdf_figures.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/factorial_anova_atm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/factorial_anova_binary.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/factorial_anova_binary_atm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/factorial_anova_multi.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/factorial_anova_multi_atm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/factorial_anova_tpot.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/one_way_anova_atm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/one_way_anova_binary.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/one_way_anova_binary_atm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/one_way_anova_multi.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/one_way_anova_multi_atm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/one_way_anova_time_budget_atm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/one_way_anova_time_buget_analysis.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_between_fc_and_3c_for_10_minutes_-_ATM.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_between_fc_and_3c_for_10_minutes_-_AutoSKLearn.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_between_fc_and_3c_for_10_minutes_-_TPOT.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_between_fc_and_3c_for_30_minutes_-_ATM.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_between_fc_and_3c_for_30_minutes_-_AutoSKLearn.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_between_fc_and_3c_for_30_minutes_-_TPOT.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_between_fc_and_3c_for_60_minutes_-_ATM.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_between_fc_and_3c_for_60_minutes_-_AutoSKLearn.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_between_fc_and_3c_for_60_minutes_-_TPOT.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_for_60_minutes_[AutoSKLearn_-_ATM].pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_for_60_minutes_[AutoSKLearn_-_TPOT].pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_for_60_minutes_[TPOT_-_ATM].pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_for_FC_Search_Space_(30-10)_-_ATM.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_for_FC_Search_Space_(30-10)_-_AutoSKLearn.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_for_FC_Search_Space_(30-10)_-_TPOT.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_for_FC_Search_Space_(60-10)_-_ATM.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_for_FC_Search_Space_(60-10)_-_AutoSKLearn.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_for_FC_Search_Space_(60-10)_-_TPOT.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_for_FC_Search_Space_(60-30)_-_ATM.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_for_FC_Search_Space_(60-30)_-_AutoSKLearn.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/search_space_figs/F1_Difference_for_FC_Search_Space_(60-30)_-_TPOT.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking/Benchmarking/.ipynb_checkpoints/results-insights-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking/Benchmarking/.ipynb_checkpoints/results_summary-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking/Benchmarking/.ipynb_checkpoints/results_visualization-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking/Benchmarking/Meta.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking/Benchmarking/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking/Benchmarking/combine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking/Benchmarking/results-insights.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking/Benchmarking/results_summary.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking/Benchmarking/results_visualization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking/Memory&amp;CPU Logging/recipeBenchmark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking/commands.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking/python/recipeBenchmark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking/python/testes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/OBOE/OBOE_benchmark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/OBOE/examples/dataset_61_iris_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/OBOE/examples/dataset_61_iris_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/OBOE/examples/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/OBOE/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/OBOE/progress.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/OBOE/runOBOE.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/Recipe/evolution/EvoTraining_dataset_185_yeast_train_s1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/Recipe/evolution/EvoTraining_iris-Training0_s1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/Recipe/fit_map/fit_CovPokElec_trains1m0_1c0_9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/Recipe/fit_map/fit_KDDCup99_trains1m0_1c0_9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/Recipe/fit_map/fit_dataset_185_yeast_trains1m0_1c0_9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/Recipe/fit_map/fit_iris-Training0s1m0_1c0_9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/Recipe/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/Recipe/progress.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/Recipe/recipeBenchmark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools Codes/Recipe/results/Result_iris-Test0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results10/tpot_binary_3C_10_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results10/tpot_binary_DT_10_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results10/tpot_binary_RF_10_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results10/tpot_binary_SVC_10_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results10/tpot_binary_default_10_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results10/tpot_multi_3C_10_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results10/tpot_multi_DT_10_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results10/tpot_multi_RF_10_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results10/tpot_multi_SVC_10_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results10/tpot_multi_default_10_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results30/tpot_binary_3C_30_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results30/tpot_binary_RF_30_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results30/tpot_binary_SVC_30_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results30/tpot_binary_default_30_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results30/tpot_multi_3C_30_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results30/tpot_multi_DT_30_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results30/tpot_multi_RF_30_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results30/tpot_multi_SVC_30_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results30/tpot_multi_default_30_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results60/tpot_binary_3C_60_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results60/tpot_binary_DT_60_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results60/tpot_binary_RF_60_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results60/tpot_binary_SVC_60_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results60/tpot_binary_default_60_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results60/tpot_multi_3C_60_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results60/tpot_multi_DT_60_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results60/tpot_multi_RF_60_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results60/tpot_multi_SVC_60_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/Results60/tpot_multi_default_60_3x_F1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/atmout.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/extranewskout1.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/extranewskout2.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/extranewskout3.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/extranewskout4.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_search_space/tpot.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/factorial_anova-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/.ipynb_checkpoints/factorial_anova-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analysis/Analysis-New.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/Analysis-New.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analysis/factorial_anova.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/factorial_anova.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Complete_Sheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Complete_Sheet.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking" beforeDir="false" afterPath="$PROJECT_DIR$/Tools Codes/AutoMLBenchmarking" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tools Codes/OBOE" beforeDir="false" afterPath="$PROJECT_DIR$/Tools Codes/OBOE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tools Codes/Recipe" beforeDir="false" afterPath="$PROJECT_DIR$/Tools Codes/Recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmark_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results10/tpot_binary.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results10/tpot_binary_3C_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results10/tpot_binary_DT_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results10/tpot_binary_RF_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results10/tpot_binary_SVC_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results10/tpot_binary_default_1_acc.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results10/tpot_binary_default_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results10/tpot_binary_default_3x_acc.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results10/tpot_multi_3C_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results10/tpot_multi_DT_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results10/tpot_multi_RF_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results10/tpot_multi_SVC_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results10/tpot_multi_default_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results30/tpot_binary_3C_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results30/tpot_binary_DF_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results30/tpot_binary_RF_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results30/tpot_binary_SVC_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results30/tpot_binary__default_3x_acc.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results30/tpot_binary_default_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results30/tpot_multi_3C_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results30/tpot_multi_DT_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results30/tpot_multi_RF_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results30/tpot_multi_SVC_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/Results30/tpot_multi_default_3x_F1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs_search_space/skout.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/logs_search_space/skout.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/benchmark.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1QYVI2MHEzBThDLWGKgvYyUDLEB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.__init__">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Benchmark_Deliverables" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compare_sheets" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Benchmark_Deliverables" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parser/compare_sheets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Benchmark_Deliverables" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parser/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="shorten_result" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Benchmark_Deliverables" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parser/shorten_result.py" />
+      <option name="PARAMETERS" value="input_dir C:\Users\HassanEldeeb\Documents\GitHub\AutoMLBenchmarking\Logs\Results4\autosklearn output_dir C:\Users\HassanEldeeb\Documents\GitHub\AutoMLBenchm arking\Logs\Results4\autosklearn" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="temp_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Benchmark_Deliverables" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.shorten_result" />
+      <item itemvalue="Python.compare_sheets" />
+      <item itemvalue="Python.temp_test" />
+      <item itemvalue="Python.__init__" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.temp_test" />
+        <item itemvalue="Python.compare_sheets" />
+        <item itemvalue="Python.shorten_result" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b34f245-28ff-4c03-91f9-1a5b876de68c" name="Default Changelist" comment="" />
+      <created>1563895558041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563895558041</updated>
+      <workItem from="1563895563258" duration="25147000" />
+      <workItem from="1564064514866" duration="21442000" />
+      <workItem from="1564418365000" duration="1109000" />
+      <workItem from="1564423064120" duration="5335000" />
+      <workItem from="1564674007010" duration="22634000" />
+      <workItem from="1565106687290" duration="45695000" />
+      <workItem from="1565962625357" duration="19000" />
+      <workItem from="1565962720087" duration="10821000" />
+      <workItem from="1567595010178" duration="5833000" />
+      <workItem from="1567947210745" duration="48000" />
+      <workItem from="1567947442132" duration="18995000" />
+      <workItem from="1568295818775" duration="1772000" />
+      <workItem from="1570011866268" duration="1463000" />
+      <workItem from="1570111896671" duration="2619000" />
+      <workItem from="1570720071415" duration="6969000" />
+      <workItem from="1571051772763" duration="1278000" />
+      <workItem from="1571927262311" duration="1401000" />
+      <workItem from="1572623129580" duration="60000" />
+      <workItem from="1572623257230" duration="2797000" />
+      <workItem from="1574593269354" duration="1929000" />
+      <workItem from="1575998665049" duration="7000" />
+    </task>
+    <task id="LOCAL-00001" summary="Data are parsed automatically into a single sheet. 30 and 60 minute experiments are done.">
+      <created>1564417718211</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564417718211</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Data are parsed automatically into a single sheet. 30 and 60 minute experiments are done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Data are parsed automatically into a single sheet. 30 and 60 minute experiments are done." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Logs/Results4/autosklearn/combine.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parser/shorten_result.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="old_cols[i] == 'TPot'" language="Python" />
+          <url>file://$PROJECT_DIR$/parser/compare_sheets.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parser/recipe_parser.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parser/tpot_parser.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Benchmark_Deliverables$recipe_parser.coverage" NAME="recipe_parser Coverage Results" MODIFIED="1563996863575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parser" />
+    <SUITE FILE_PATH="coverage/AutoMLBenchmarking$main.coverage" NAME="main Coverage Results" MODIFIED="1568100026088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parser" />
+    <SUITE FILE_PATH="coverage/Benchmark_Deliverables$skleran_parser.coverage" NAME="skleran_parser Coverage Results" MODIFIED="1564072412366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parser" />
+    <SUITE FILE_PATH="coverage/AutoMLBenchmarking$temp_test.coverage" NAME="temp_test Coverage Results" MODIFIED="1567948454978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AutoMLBenchmarking$combine.coverage" NAME="combine Coverage Results" MODIFIED="1564589044347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logs/Results4/autosklearn" />
+    <SUITE FILE_PATH="coverage/Benchmark_Deliverables$smartML_parser.coverage" NAME="smartML_parser Coverage Results" MODIFIED="1564070843547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parser" />
+    <SUITE FILE_PATH="coverage/Benchmark_Deliverables$tpot_parser.coverage" NAME="tpot_parser Coverage Results" MODIFIED="1564074175830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parser" />
+    <SUITE FILE_PATH="coverage/AutoMLBenchmarking$temp.coverage" NAME="temp Coverage Results" MODIFIED="1565187649583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parser" />
+    <SUITE FILE_PATH="coverage/AutoMLBenchmarking$shorten_result.coverage" NAME="shorten_result Coverage Results" MODIFIED="1565261292286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parser" />
+    <SUITE FILE_PATH="coverage/Benchmark_Deliverables$autoweka_parser.coverage" NAME="autoweka_parser Coverage Results" MODIFIED="1564072619245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parser" />
+    <SUITE FILE_PATH="coverage/Benchmark_Deliverables$main.coverage" NAME="main Coverage Results" MODIFIED="1564417174994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parser" />
+    <SUITE FILE_PATH="coverage/AutoMLBenchmarking$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1570731700677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/AutoMLBenchmarking$compare_sheets.coverage" NAME="compare_sheets Coverage Results" MODIFIED="1565873742022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parser" />
+  </component>
+</project>

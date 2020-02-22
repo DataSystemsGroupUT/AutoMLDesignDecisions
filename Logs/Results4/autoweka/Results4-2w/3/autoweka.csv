@@ -1,0 +1,7 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+page-blocks,13186.0,0.9795471146822499,0.9795471146822499,0.9795471146822499,0.9795471146822499,"best classifier: weka.classifiers.meta.RandomCommittee
+arguments: [-I, 16, -S, 1, -W, weka.classifiers.trees.RandomForest, --, -I, 54, -K, 0, -depth, 0]",0.9795471146822499,0.0,0.9795471146822499,0.0,0.9795471146822499,0.0,0.9795471146822499,0.0
+php0FyS2T,12024.0,0.6325,0.6832341269841271,0.6325,0.6208227744477745,"best classifier: weka.classifiers.lazy.IBk
+arguments: [-K, 1, -X]",0.6325,0.0,0.6832341269841271,0.0,0.6325,0.0,0.6208227744477745,0.0
+php5s7Ep8,12065.0,0.7716049382716049,0.7704859422621175,0.7716049382716049,0.7685036550315338,"best classifier: weka.classifiers.meta.AdaBoostM1
+arguments: [-P, 100, -I, 29, -Q, -S, 1, -W, weka.classifiers.trees.J48, --, -O, -B, -A, -S, -M, 3, -C, 0.5029138856562324]",0.7716049382716049,0.0,0.7704859422621175,0.0,0.7716049382716049,0.0,0.7685036550315338,0.0

@@ -1,0 +1,7 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+GCM,14492.0,0.7708333333333333,0.8253968253968255,0.7708333333333334,0.752922077922078,"best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: []",0.7708333333333333,0.0,0.8253968253968255,0.0,0.7708333333333334,0.0,0.752922077922078,0.0
+dataset_54_vehicle,15401.0,0.5518867924528302,0.607941256920973,0.5518867924528302,0.529667307541843,"best classifier: weka.classifiers.lazy.LWL
+arguments: [-U, 1, -A, weka.core.neighboursearch.LinearNNSearch, -W, weka.classifiers.functions.SMO, --, -C, 1.1409131964824761, -N, 0, -K, weka.classifiers.functions.supportVector.PolyKernel -E 4.773423247182918]",0.5518867924528302,0.0,0.607941256920973,0.0,0.5518867924528302,0.0,0.529667307541843,0.0
+gina_agnostic,12151.0,0.8881199538638985,0.8881399637530223,0.8881199538638985,0.8880718926679165,"best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 0.7127949742291734, -N, 0, -M, -K, weka.classifiers.functions.supportVector.PolyKernel -E 1.1133446901320447 -L]",0.8881199538638985,0.0,0.8881399637530223,0.0,0.8881199538638985,0.0,0.8880718926679165,0.0

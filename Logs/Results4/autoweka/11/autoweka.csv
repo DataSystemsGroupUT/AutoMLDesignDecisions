@@ -1,0 +1,4 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std,error_1
+umistfacescropped,15840.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Timeout
+wine-quality-red,13302.0,0.6675,0.6607882293762575,0.6675,0.6521065115646951,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 256, -K, 12, -depth, 11]",0.6675,0.0,0.6607882293762575,0.0,0.6675,0.0,0.6521065115646951,0.0,

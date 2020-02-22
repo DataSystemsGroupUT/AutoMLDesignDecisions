@@ -1,0 +1,7 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+arrhythmia,12293.0,0.831858407079646,0.8368560366624526,0.831858407079646,0.831117287110851,"best classifier: weka.classifiers.meta.AdaBoostM1
+arguments: [-P, 100, -I, 57, -Q, -S, 1, -W, weka.classifiers.trees.LMT, --, -R, -P, -M, 8, -W, 0, -A]",0.831858407079646,0.0,0.8368560366624526,0.0,0.831858407079646,0.0,0.831117287110851,0.0
+dataset_194_eucalyptus,13445.0,0.6467391304347827,0.647251751871317,0.6467391304347826,0.6298810607809479,"best classifier: weka.classifiers.meta.Bagging
+arguments: [-P, 79, -I, 26, -S, 1, -W, weka.classifiers.functions.MultilayerPerceptron, --, -L, 0.9493926596778187, -M, 0.8464175687422074, -B, -H, a, -D, -S, 1]",0.6467391304347827,0.0,0.647251751871317,0.0,0.6467391304347826,0.0,0.6298810607809479,0.0
+dataset_40_sonar,12021.0,0.8461538461538461,0.8645564961354435,0.8461538461538461,0.8433566433566432,"best classifier: weka.classifiers.lazy.KStar
+arguments: [-B, 90, -M, d]",0.8461538461538461,0.0,0.8645564961354435,0.0,0.8461538461538461,0.0,0.8433566433566432,0.0

@@ -1,0 +1,34 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+php0FyS2T,14623.705560684204,0.6325,0.6749057539682539,0.6325,0.6186476015814251,"Pipeline(memory=None,
+     steps=[('kneighborsclassifier', KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=None, n_neighbors=1, p=2,
+           weights='uniform'))])",0.6325,0.0,0.6749057539682539,0.0,0.6325,0.0,0.6186476015814251,0.0
+php5s7Ep8,14461.06305217743,0.7983539094650206,0.8002753357987218,0.7983539094650206,0.796684167654805,"Pipeline(memory=None,
+     steps=[('gradientboostingclassifier', GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.1, loss='deviance', max_depth=5,
+              max_features=0.55, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=None,
+              m....9000000000000001, tol=0.0001,
+              validation_fraction=0.1, verbose=0, warm_start=False))])",0.7983539094650206,0.0,0.8002753357987218,0.0,0.7983539094650206,0.0,0.796684167654805,0.0
+php7KLval,14408.022137403488,0.8,0.7883289124668434,0.8,0.771376811594203,"Pipeline(memory=None,
+     steps=[('featureunion', FeatureUnion(n_jobs=None,
+       transformer_list=[('functiontransformer', FunctionTransformer(accept_sparse=False, check_inverse=True,
+          func=<function copy at 0x7fbeef4e0d90>, inv_kw_args=None,
+          inverse_func=None, kw_args=None, pass_y='deprecated',
+        ...=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+       silent=True, subsample=0.7000000000000001))])",0.8,0.0,0.7883289124668434,0.0,0.8,0.0,0.771376811594203,0.0
+phpCsX3fx,14473.597905397415,0.7975,0.8498035714285714,0.7975,0.7943387723387726,"Pipeline(memory=None,
+     steps=[('randomforestclassifier', RandomForestClassifier(bootstrap=False, class_weight=None, criterion='gini',
+            max_depth=None, max_features=0.1, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=3, min_samples_split=4,
+            min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=None,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])",0.7975,0.0,0.8498035714285714,0.0,0.7975,0.0,0.7943387723387726,0.0
+phpbL6t4U,14622.106049060822,0.9945370902817712,0.994551938671959,0.9945370902817712,0.9945361336136845,"Pipeline(memory=None,
+     steps=[('gradientboostingclassifier', GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.5, loss='deviance', max_depth=4,
+              max_features=0.6000000000000001, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=None,
+ ....8500000000000001, tol=0.0001,
+              validation_fraction=0.1, verbose=0, warm_start=False))])",0.9945370902817712,0.0,0.994551938671959,0.0,0.9945370902817712,0.0,0.9945361336136845,0.0

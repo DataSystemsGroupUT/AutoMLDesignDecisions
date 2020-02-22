@@ -1,0 +1,37 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+phpN4gaxw,14662.62873506546,0.9965497412305923,0.9965569258143678,0.9965497412305923,0.9965493799400956,"Pipeline(memory=None,
+     steps=[('gradientboostingclassifier', GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.1, loss='deviance', max_depth=8,
+              max_features=0.15000000000000002, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=None,
+....6000000000000001, tol=0.0001,
+              validation_fraction=0.1, verbose=0, warm_start=False))])",0.9965497412305923,0.0,0.9965569258143678,0.0,0.9965497412305923,0.0,0.9965493799400956,0.0
+phpNevWWL,14429.251846075058,0.7142857142857143,0.7103199934313735,0.7142857142857143,0.7002226472381272,"Pipeline(memory=None,
+     steps=[('stackingestimator', StackingEstimator(estimator=RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features=0.35000000000000003,
+            max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_s...    subsample=0.3, tol=0.0001, validation_fraction=0.1,
+              verbose=0, warm_start=False))])",0.7142857142857143,0.0,0.7103199934313735,0.0,0.7142857142857143,0.0,0.7002226472381272,0.0
+phpPbCMyg,14448.486364364624,0.6143790849673203,0.596499443216516,0.6143790849673203,0.6006262036739503,"Pipeline(memory=None,
+     steps=[('randomforestclassifier', RandomForestClassifier(bootstrap=False, class_weight=None,
+            criterion='entropy', max_depth=None, max_features=0.1,
+            max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=2,
+            min_samples_split=7, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=None, oob_score=False,
+            random_state=None, verbose=0, warm_start=False))])",0.6143790849673203,0.0,0.596499443216516,0.0,0.6143790849673203,0.0,0.6006262036739503,0.0
+phpTJRsqa,14407.352947950363,0.686530612244898,0.6960782788639933,0.686530612244898,0.671087799412648,"Pipeline(memory=None,
+     steps=[('randomforestclassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features=0.05, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=3,
+            min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=None,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])",0.686530612244898,0.0,0.6960782788639933,0.0,0.686530612244898,0.0,0.671087799412648,0.0
+phpoOxxNn,14406.778290271759,0.835,0.8597559523809525,0.835,0.8296443001443001,"Pipeline(memory=None,
+     steps=[('stackingestimator', StackingEstimator(estimator=ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=None, max_features=0.2, max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=2, min_samp...',
+           metric_params=None, n_jobs=None, n_neighbors=92, p=1,
+           weights='distance'))])",0.835,0.0,0.8597559523809525,0.0,0.835,0.0,0.8296443001443001,0.0

@@ -1,0 +1,5 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+phpTJRsqa,13273.0,0.6816326530612246,0.6922181444480155,0.6816326530612244,0.6688972658928601,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 105, -K, 1, -depth, 0]",0.6816326530612246,0.0,0.6922181444480155,0.0,0.6816326530612244,0.0,0.6688972658928601,0.0
+phpvcoG8S,12144.0,0.6426367856666123,0.6428372952622399,0.6426367856666123,0.629604948932187,"best classifier: weka.classifiers.trees.REPTree
+arguments: [-M, 57, -V, 0.02552075631593979, -L, 10, -P]",0.6426367856666123,0.0,0.6428372952622399,0.0,0.6426367856666123,0.0,0.629604948932187,0.0

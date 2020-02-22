@@ -1,0 +1,6 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,error_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std,model_1
+KDDCup99,13666.0,0.9993036719161168,0.9992526964509925,0.9993036719161168,0.9992358316290283,,0.9993036719161168,0.0,0.9992526964509925,0.0,0.9993036719161168,0.0,0.9992358316290283,0.0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]"
+devnagari,15840.0,0.0,0.0,0.0,0.0,Timeout,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+phprAeXmK,12614.0,0.9499746063991874,0.9418219970661151,0.9499746063991874,0.9395517362728419,,0.9499746063991874,0.0,0.9418219970661151,0.0,0.9499746063991874,0.0,0.9395517362728419,0.0,"best classifier: weka.classifiers.meta.Bagging
+arguments: [-P, 74, -I, 4, -S, 1, -W, weka.classifiers.rules.PART, --, -N, 4, -M, 44, -R, -B]"

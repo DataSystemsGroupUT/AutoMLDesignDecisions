@@ -1,0 +1,3 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+electricity-normalized,12082.0,0.734375,0.7366663797955862,0.734375,0.7351657331802173,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",0.734375,0.0,0.7366663797955862,0.0,0.734375,0.0,0.7351657331802173,0.0

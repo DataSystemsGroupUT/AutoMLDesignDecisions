@@ -1,0 +1,29 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,error_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std,model_1
+analcatdata_authorship,12197.0,1.0,1.0,1.0,1.0,,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,"best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 0.9572659583792276, -N, 0, -K, weka.classifiers.functions.supportVector.NormalizedPolyKernel -E 1.3279193975979793 -L]"
+audiology,12110.0,0.9298245614035088,0.9360623781676413,0.9298245614035088,0.9264440170192925,,0.9298245614035088,0.0,0.9360623781676413,0.0,0.9298245614035088,0.0,0.9264440170192925,0.0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 115, -K, 4, -depth, 17]"
+avila-tr,12447.0,0.9996166379145103,0.9996180766695557,0.9996166379145103,0.9996157489187445,,0.9996166379145103,0.0,0.9996180766695557,0.0,0.9996166379145103,0.0,0.9996157489187445,0.0,"best classifier: weka.classifiers.meta.AdaBoostM1
+arguments: [-P, 92, -I, 111, -Q, -S, 1, -W, weka.classifiers.bayes.BayesNet, --, -D, -Q, weka.classifiers.bayes.net.search.local.TAN]"
+churn,12621.0,0.9351999999999999,0.9319425743232023,0.9352,0.9318417624333272,,0.9351999999999999,0.0,0.9319425743232023,0.0,0.9352,0.0,0.9318417624333272,0.0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 159, -K, 26, -depth, 0]"
+dataset_189_baseball,1.0,0.0,0.0,0.0,0.0,Failed to prepare the experiment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+dataset_26_nursery,12421.0,0.9993827160493827,0.9990780307638851,0.9993827160493827,0.9992293108303866,,0.9993827160493827,0.0,0.9990780307638851,0.0,0.9993827160493827,0.0,0.9992293108303866,0.0,"best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 1.011721496123584, -N, 2, -M, -K, weka.classifiers.functions.supportVector.NormalizedPolyKernel -E 2.3867059535592823 -L]"
+dataset_28_optdigits,12417.0,0.9879003558718861,0.9880975016205507,0.9879003558718861,0.9879171209741564,,0.9879003558718861,0.0,0.9880975016205507,0.0,0.9879003558718861,0.0,0.9879171209741564,0.0,"best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 1.3796939790023386, -N, 0, -K, weka.classifiers.functions.supportVector.RBFKernel -G 0.15419343609743885]"
+dataset_36_segment,12569.0,0.9740484429065743,0.9746729943748388,0.9740484429065744,0.9742437642512108,,0.9740484429065743,0.0,0.9746729943748388,0.0,0.9740484429065744,0.0,0.9742437642512108,0.0,"best classifier: weka.classifiers.meta.AdaBoostM1
+arguments: [-P, 100, -I, 14, -S, 1, -W, weka.classifiers.trees.J48, --, -S, -M, 4]"
+dataset_42_soybean,15434.0,0.9447852760736197,0.948299766384589,0.9447852760736196,0.943985250977406,,0.9447852760736197,0.0,0.948299766384589,0.0,0.9447852760736196,0.0,0.943985250977406,0.0,"best classifier: weka.classifiers.lazy.LWL
+arguments: [-A, weka.core.neighboursearch.LinearNNSearch, -W, weka.classifiers.bayes.BayesNet, --, -D, -Q, weka.classifiers.bayes.net.search.local.K2]"
+dataset_59_ionosphere,12063.0,0.9318181818181819,0.93841642228739,0.9318181818181818,0.9300249721056265,,0.9318181818181819,0.0,0.93841642228739,0.0,0.9318181818181818,0.0,0.9300249721056265,0.0,"best classifier: weka.classifiers.lazy.LWL
+arguments: [-A, weka.core.neighboursearch.LinearNNSearch, -W, weka.classifiers.functions.SMO, --, -C, 0.8670343514521969, -N, 0, -K, weka.classifiers.functions.supportVector.Puk -S 5.729900075356951 -O 0.12762305430471563]"
+dataset_6_letter,12166.0,0.9598,0.9602684915036569,0.9598,0.9598910433084938,,0.9598,0.0,0.9602684915036569,0.0,0.9598,0.0,0.9598910433084938,0.0,"best classifier: weka.classifiers.meta.AdaBoostM1
+arguments: [-P, 100, -I, 10, -Q, -S, 1, -W, weka.classifiers.trees.RandomForest, --, -I, 43, -K, 0, -depth, 20]"
+jungle_chess_2pcs_endgame_panther_lion,12013.0,0.9872448979591837,0.9872986318565276,0.9872448979591837,0.9872446232597629,,0.9872448979591837,0.0,0.9872986318565276,0.0,0.9872448979591837,0.0,0.9872446232597629,0.0,"best classifier: weka.classifiers.trees.J48
+arguments: [-J, -A, -S, -M, 1, -C, 0.804287468007592]"
+openml_phpJNxH0q,1.0,0.0,0.0,0.0,0.0,Failed to prepare the experiment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+page-blocks,12219.0,0.9788166544923301,0.9786446106041469,0.9788166544923301,0.9787189042467249,,0.9788166544923301,0.0,0.9786446106041469,0.0,0.9788166544923301,0.0,0.9787189042467249,0.0,"best classifier: weka.classifiers.meta.AttributeSelectedClassifier
+arguments: [-S, weka.attributeSelection.BestFirst, -E, weka.attributeSelection.CfsSubsetEval, -W, weka.classifiers.trees.RandomForest, --, -I, 39, -K, 0, -depth, 0]"
+php5OMDBD,12783.0,1.0,1.0,1.0,1.0,,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,"best classifier: weka.classifiers.lazy.IBk
+arguments: [-E, -K, 1, -X, -I]"

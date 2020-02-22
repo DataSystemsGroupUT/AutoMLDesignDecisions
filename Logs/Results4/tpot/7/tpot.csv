@@ -1,0 +1,32 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+GCM,14507.63736796379,0.8333333333333334,0.8408564814814815,0.8333333333333334,0.8152701465201465,"Pipeline(memory=None,
+     steps=[('pca', PCA(copy=True, iterated_power=10, n_components=None, random_state=None,
+  svd_solver='randomized', tol=0.0, whiten=False)), ('logisticregression', LogisticRegression(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False))])",0.8333333333333334,0.0,0.8408564814814815,0.0,0.8333333333333334,0.0,0.8152701465201465,0.0
+MagicTelescope,14567.678342580795,0.8807570977917981,0.8808073548369805,0.8807570977917981,0.8785414294741878,"Pipeline(memory=None,
+     steps=[('polynomialfeatures', PolynomialFeatures(degree=2, include_bias=False, interaction_only=False)), ('zerocount', ZeroCount()), ('rfe', RFE(estimator=ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='entropy',
+           max_depth=None, max_features=0.15000000000000002,
+      ...ors=100, n_jobs=None, oob_score=False,
+            random_state=None, verbose=0, warm_start=False))])",0.8807570977917981,0.0,0.8808073548369805,0.0,0.8807570977917981,0.0,0.8785414294741878,0.0
+dataset_6_letter,14564.69857430458,0.9594,0.9598755124116005,0.9594,0.9594802069726693,"Pipeline(memory=None,
+     steps=[('extratreesclassifier', ExtraTreesClassifier(bootstrap=True, class_weight=None, criterion='gini',
+           max_depth=None, max_features=0.5, max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=2, min_samples_split=8,
+           min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=None,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])",0.9594,0.0,0.9598755124116005,0.0,0.9594,0.0,0.9594802069726693,0.0
+jm1,14431.044615983963,0.8188831741366642,0.7893168268328249,0.8188831741366642,0.7786449837485064,"Pipeline(memory=None,
+     steps=[('stackingestimator', StackingEstimator(estimator=LinearSVC(C=0.001, class_weight=None, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=None, tol=0.01,
+     verbose=0))), ('randomforestclassifier'...ors=100, n_jobs=None, oob_score=False,
+            random_state=None, verbose=0, warm_start=False))])",0.8188831741366642,0.0,0.7893168268328249,0.0,0.8188831741366642,0.0,0.7786449837485064,0.0
+kin8nm,14458.923965454102,0.8740234375,0.8745067579271517,0.8740234375,0.8740775472182001,"Pipeline(memory=None,
+     steps=[('featureunion', FeatureUnion(n_jobs=None,
+       transformer_list=[('functiontransformer', FunctionTransformer(accept_sparse=False, check_inverse=True,
+          func=<function copy at 0x7fba7e535d90>, inv_kw_args=None,
+          inverse_func=None, kw_args=None, pass_y='deprecated',
+        ....9000000000000001, tol=0.0001,
+              validation_fraction=0.1, verbose=0, warm_start=False))])",0.8740234375,0.0,0.8745067579271517,0.0,0.8740234375,0.0,0.8740775472182001,0.0

@@ -1,0 +1,1 @@
+0.0,1.0,SelectFwe 0.289603 chi2 # SA*  ExtraTreesClassifier gini False False balanced 45 False sqrt None 0.289873 50880 # SVC linear 6 0.073325 500 balanced # RandomForestClassifier gini True False balanced_subsample 30 True 0.765291 None 0.001435 None # Stacking 

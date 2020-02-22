@@ -1,0 +1,22 @@
+1. Auto-Weka:
+* requries jvm which consumes by itself large amount of memory 
+* failures on large datasets with small time budgets
+
+2. TPOT:
+* doesn't terminate when time budget finished exactly which leads to some failures as we terminate it manually
+* many failures at small time budgets
+
+3. Recipe:
+* not stable with many technical issues
+* depend on python 2 which will be deprecated on 2020
+* failures with many medium and large size datasets especially in small time budgets
+* doesn't terminate when time budget finished exactly which leads to some failures as we terminate it manually
+
+4. SmartML:
+* bad memory management in R that leads to memory leaks and inability to deal with large datasets except sampling
+* using multiple R packages with different interfaces unlike scikit learn in python and weka in java
+* not comprehensive like scikit learn and weka
+* R Studio server used in running the experiements itself has high memory and cpu consumption
+
+5. Auto-Sklearn:
+* some memory leaks that leads to failures in some datasets in the 4 hrs experiements

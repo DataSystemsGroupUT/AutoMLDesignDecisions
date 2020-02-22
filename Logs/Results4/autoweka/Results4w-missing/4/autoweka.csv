@@ -1,0 +1,4 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,error_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std,model_1
+KDDCup99,12770.0,0.9993036719161168,0.9992526964509925,0.9993036719161168,0.9992358316290283,,0.9993036719161168,0.0,0.9992526964509925,0.0,0.9993036719161168,0.0,0.9992358316290283,0.0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]"
+dataset_189_baseball,1.0,0.0,0.0,0.0,0.0,Failed to prepare the experiment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,

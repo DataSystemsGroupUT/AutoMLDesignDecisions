@@ -1,0 +1,5 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+dataset_183_adult,12151.0,0.8455490950782082,0.8384656237980112,0.8455490950782082,0.8398098650387092,"best classifier: weka.classifiers.meta.Bagging
+arguments: [-P, 74, -I, 4, -S, 1, -W, weka.classifiers.rules.PART, --, -N, 4, -M, 44, -R, -B]",0.8455490950782082,0.0,0.8384656237980112,0.0,0.8455490950782082,0.0,0.8398098650387092,0.0
+dataset_185_yeast,12033.0,0.5849056603773585,0.5854208642649689,0.5849056603773585,0.577152094217023,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 126, -K, 5, -depth, 0]",0.5849056603773585,0.0,0.5854208642649689,0.0,0.5849056603773585,0.0,0.577152094217023,0.0

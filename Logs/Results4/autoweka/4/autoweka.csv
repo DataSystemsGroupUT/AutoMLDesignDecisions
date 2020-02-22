@@ -1,0 +1,5 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+dataset_187_abalone,12454.0,0.25191570881226055,0.21019541629576727,0.25191570881226055,0.223480736469237,"best classifier: weka.classifiers.functions.Logistic
+arguments: [-R, 1.381988564319378E-7]",0.25191570881226055,0.0,0.21019541629576727,0.0,0.25191570881226055,0.0,0.223480736469237,0.0
+dataset_31_credit-g,13216.0,0.772,0.7617869062901156,0.772,0.7490583850931676,"best classifier: weka.classifiers.lazy.LWL
+arguments: [-A, weka.core.neighboursearch.LinearNNSearch, -W, weka.classifiers.functions.SimpleLogistic, --, -S, -W, 0]",0.772,0.0,0.7617869062901156,0.0,0.772,0.0,0.7490583850931676,0.0

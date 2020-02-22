@@ -1,0 +1,243 @@
+dataset,accuracy_1,accuracy_2,accuracy_3,accuracy_mean,accuracy_std,error_1,error_2,error_3,f1score_1,f1score_2,f1score_3,f1score_mean,f1score_std,model_1,model_2,model_3,precision_1,precision_2,precision_3,precision_mean,precision_std,recall_1,recall_2,recall_3,recall_mean,recall_std,time_1,time_2,time_3
+AP_Breast_Lung,0,0,0,0,0,Timeout,Timeout,Timeout,0,0,0,0,0,,,,0,0,0,0,0,0,0,0,0,0,660,660,660
+AP_Omentum_Ovary,0,0,0,0,0,Timeout,Timeout,Timeout,0,0,0,0,0,,,,0,0,0,0,0,0,0,0,0,0,660,660,660
+AP_Prostate_Ovary,1,1,1,1,0,,,,1,1,1,1,0,"best classifier: weka.classifiers.meta.Vote
+arguments: [-R, MAX, -S, 1, -B, weka.classifiers.trees.LMT -M 2 -W 0.23885826206068084 -A]","best classifier: weka.classifiers.meta.Vote
+arguments: [-R, MAX, -S, 1, -B, weka.classifiers.trees.LMT -M 2 -W 0.23885826206068084 -A]","best classifier: weka.classifiers.meta.Vote
+arguments: [-R, MAX, -S, 1, -B, weka.classifiers.trees.LMT -M 2 -W 0.23885826206068084 -A]",1,1,1,1,0,1,1,1,1,0,530,533,531
+AirlinesCodrnaAdult,0,0,0,0,0,Timeout,Timeout,Timeout,0,0,0,0,0,,,,0,0,0,0,0,0,0,0,0,0,660,660,660
+Amazon,0,0,0,0,0,Timeout,Timeout,Timeout,0,0,0,0,0,,,,0,0,0,0,0,0,0,0,0,0,660,660,660
+CovPokElec,0,0,0,0,0,Timeout,Timeout,Timeout,0,0,0,0,0,,,,0,0,0,0,0,0,0,0,0,0,660,660,660
+GCM,0,,,0,0,Timeout,,,0,,,0,0,,,,0,,,0,0,0,,,0,0,660,,
+KDDCup99,0,0,0,0,0,Timeout,Timeout,Timeout,0,0,0,0,0,,,,0,0,0,0,0,0,0,0,0,0,660,660,660
+MagicTelescope,0.833228181,,,0.833228181,0,,,,0.828834595,,,0.828834595,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",,,0.832056849,,,0.832056849,0,0.833228181,,,0.833228181,0,529,,
+aaaData_for_UCI_named,1,,,1,0,,,,1,,,1,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 7, -K, 4, -depth, 5]",,,1,,,1,0,1,,,1,0,566,,
+analcatdata_authorship,0.995260664,,,0.995260664,0,,,,0.995258153,,,0.995258153,0,"best classifier: weka.classifiers.functions.Logistic
+arguments: [-R, 0.0767011353880596]",,,0.99531846,,,0.99531846,0,0.995260664,,,0.995260664,0,512,,
+arrhythmia,0.805309735,,,0.805309735,0,,,,0.802899284,,,0.802899284,0,"best classifier: weka.classifiers.bayes.BayesNet
+arguments: [-D, -Q, weka.classifiers.bayes.net.search.local.TAN]",,,0.819406065,,,0.819406065,0,0.805309735,,,0.805309735,0,514,,
+audiology,0.929824561,,,0.929824561,0,,,,0.926444017,,,0.926444017,0,"best classifier: weka.classifiers.functions.Logistic
+arguments: [-R, 0.03189171239023452]",,,0.936062378,,,0.936062378,0,0.929824561,,,0.929824561,0,511,,
+avila-tr,0.80333525,,,0.80333525,0,,,,0.798213885,,,0.798213885,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",,,0.80438475,,,0.80438475,0,0.80333525,,,0.80333525,0,519,,
+churn,0.9216,,,0.9216,0,,,,0.912490316,,,0.912490316,0,"best classifier: weka.classifiers.rules.JRip
+arguments: [-N, 3.2535425399717908, -E, -P, -O, 4]",,,0.918369391,,,0.918369391,0,0.9216,,,0.9216,0,533,,
+cifar-10,0,,,0,0,Timeout,,,0,,,0,0,,,,0,,,0,0,0,,,0,0,660,,
+connect-4,0.706927176,0.706927176,0.706927176,0.706927176,0,,,,0.653940022,0.653940022,0.653940022,0.653940022,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",0.663703672,0.663703672,0.663703672,0.663703672,0,0.706927176,0.706927176,0.706927176,0.706927176,0,536,534,534
+dataset_183_adult,0.845549095,0.845549095,0.845549095,0.845549095,0,,,,0.839809865,0.839809865,0.839809865,0.839809865,0,"best classifier: weka.classifiers.meta.Bagging
+arguments: [-P, 74, -I, 4, -S, 1, -W, weka.classifiers.rules.PART, --, -N, 4, -M, 44, -R, -B]","best classifier: weka.classifiers.meta.Bagging
+arguments: [-P, 74, -I, 4, -S, 1, -W, weka.classifiers.rules.PART, --, -N, 4, -M, 44, -R, -B]","best classifier: weka.classifiers.meta.Bagging
+arguments: [-P, 74, -I, 4, -S, 1, -W, weka.classifiers.rules.PART, --, -N, 4, -M, 44, -R, -B]",0.838465624,0.838465624,0.838465624,0.838465624,0,0.845549095,0.845549095,0.845549095,0.845549095,0,539,538,535
+dataset_185_yeast,0.563342318,0.60916442,0.582210243,0.58490566,0.018803638,,,,0.55687728,0.60118117,0.565935153,0.574664534,0.019111257,"best classifier: weka.classifiers.functions.MultilayerPerceptron
+arguments: [-L, 0.9005458437479369, -M, 0.3969778277242346, -H, o, -R, -S, 1]","best classifier: weka.classifiers.meta.Bagging
+arguments: [-P, 76, -I, 111, -S, 1, -W, weka.classifiers.trees.RandomForest, --, -I, 14, -K, 1, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 18, -K, 0, -depth, 5]",0.564302129,0.606637713,0.596501518,0.58914712,0.018048837,0.563342318,0.60916442,0.582210243,0.58490566,0.018803638,524,539,521
+dataset_186_satimage,0.913557214,0.913557214,0.913557214,0.913557214,1.11E-16,,,,0.912255894,0.912255894,0.912255894,0.912255894,0,"best classifier: weka.classifiers.meta.AdaBoostM1
+arguments: [-P, 56, -I, 118, -S, 1, -W, weka.classifiers.trees.J48, --, -J, -A, -M, 6, -C, 0.2814136752665706]","best classifier: weka.classifiers.meta.AdaBoostM1
+arguments: [-P, 56, -I, 118, -S, 1, -W, weka.classifiers.trees.J48, --, -J, -A, -M, 6, -C, 0.2814136752665706]","best classifier: weka.classifiers.meta.AdaBoostM1
+arguments: [-P, 56, -I, 118, -S, 1, -W, weka.classifiers.trees.J48, --, -J, -A, -M, 6, -C, 0.2814136752665706]",0.912068785,0.912068785,0.912068785,0.912068785,0,0.913557214,0.913557214,0.913557214,0.913557214,1.11E-16,541,541,540
+dataset_187_abalone,,,0.266283525,0.266283525,0.125527257,Timeout,Timeout,,0,0,0.234453398,0.078151133,0.110522392,,,"best classifier: weka.classifiers.functions.SimpleLogistic
+arguments: [-W, 0]",0,0,0.229606629,0.076535543,0.108237603,0,0,0.266283525,0.088761175,0.125527257,660,660,559
+dataset_189_baseball,0.928358209,,,0.928358209,0,,,,0.910077593,,,0.910077593,0,"best classifier: weka.classifiers.functions.Logistic
+arguments: [-R, 3.9506181272499217]",,,0.907978625,,,0.907978625,0,0.928358209,,,0.928358209,0,510,,
+dataset_194_eucalyptus,0.597826087,,,0.597826087,0,,,,0.57935821,,,0.57935821,0,"best classifier: weka.classifiers.functions.Logistic
+arguments: [-R, 2.216632168066345]",,,0.598994992,,,0.598994992,0,0.597826087,,,0.597826087,0,511,,
+dataset_24_mushroom,0.988183161,0.988183161,0.988183161,0.988183161,0,,,,0.988180892,0.988180892,0.988180892,0.988180892,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",0.988454812,0.988454812,0.988454812,0.988454812,0,0.988183161,0.988183161,0.988183161,0.988183161,0,523,517,536
+dataset_26_nursery,0.984876543,,,0.984876543,0,,,,0.984446362,,,0.984446362,0,"best classifier: weka.classifiers.meta.AttributeSelectedClassifier
+arguments: [-S, weka.attributeSelection.BestFirst, -E, weka.attributeSelection.CfsSubsetEval, -W, weka.classifiers.trees.RandomForest, --, -I, 110, -K, 0, -depth, 13]",,,0.98441192,,,0.98441192,0,0.984876543,,,0.984876543,0,519,,
+dataset_28_optdigits,0.983629893,,,0.983629893,0,,,,0.983600014,,,0.983600014,0,"best classifier: weka.classifiers.lazy.IBk
+arguments: [-E, -K, 1]",,,0.983887435,,,0.983887435,0,0.983629893,,,0.983629893,0,564,,
+dataset_31_credit-g,0.752,0.752,0.748,0.750666667,0.001885618,,,,0.732203509,0.70736,0.728860551,0.72280802,0.011008325,"best classifier: weka.classifiers.bayes.BayesNet
+arguments: [-Q, weka.classifiers.bayes.net.search.local.TAN]","best classifier: weka.classifiers.meta.Bagging
+arguments: [-P, 13, -I, 13, -S, 1, -W, weka.classifiers.trees.J48, --, -O, -U, -J, -M, 5]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 36, -K, 10, -depth, 16]",0.735314578,0.747450549,0.730579185,0.737781437,0.007105152,0.752,0.752,0.748,0.750666667,0.001885618,510,511,558
+dataset_36_segment,0.977508651,,,0.977508651,0,,,,0.977561379,,,0.977561379,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",,,0.977717059,,,0.977717059,0,0.977508651,,,0.977508651,0,533,,
+dataset_39_ecoli,0.892857143,0.904761905,0.904761905,0.900793651,0.005611959,,,,0.898657925,0.90952381,0.90952381,0.905901848,0.005122227,"best classifier: weka.classifiers.lazy.IBk
+arguments: [-K, 7, -X, -I]","best classifier: weka.classifiers.functions.Logistic
+arguments: [-R, 0.39744933291214724]","best classifier: weka.classifiers.functions.Logistic
+arguments: [-R, 0.39744933291214724]",0.908210506,0.916588858,0.916588858,0.913796074,0.003949593,0.892857143,0.904761905,0.904761905,0.900793651,0.005611959,509,511,511
+dataset_40_sonar,0.75,,,0.75,0,,,,0.748600224,,,0.748600224,0,"best classifier: weka.classifiers.lazy.IBk
+arguments: [-E, -K, 60, -X, -I]",,,0.752272727,,,0.752272727,0,0.75,,,0.75,0,510,,
+dataset_42_soybean,0.901840491,,,0.901840491,0,,,,0.89740228,,,0.89740228,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 21, -K, 0, -depth, 8]",,,0.911055305,,,0.911055305,0,0.901840491,,,0.901840491,0,560,,
+dataset_44_spambase,0.944396177,0.944396177,0.944396177,0.944396177,1.11E-16,,,,0.944102395,0.944102395,0.944102395,0.944102395,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",0.944682703,0.944682703,0.944682703,0.944682703,0,0.944396177,0.944396177,0.944396177,0.944396177,0,562,559,512
+dataset_54_vehicle,0,,,0,0,Timeout,,,0,,,0,0,,,,0,,,0,0,0,,,0,0,660,,
+dataset_59_ionosphere,0.943181818,,,0.943181818,0,,,,0.941988332,,,0.941988332,0,"best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 0.6680673876996616, -N, 2, -M, -K, weka.classifiers.functions.supportVector.RBFKernel -G 0.2582956076700777]",,,0.947839046,,,0.947839046,0,0.943181818,,,0.943181818,0,509,,
+dataset_60_waveform-5000,0.8616,0.8616,0.8616,0.8616,1.11E-16,,,,0.861602607,0.861602607,0.861602607,0.861602607,0,"best classifier: weka.classifiers.functions.Logistic
+arguments: [-R, 0.0885405771893914]","best classifier: weka.classifiers.functions.Logistic
+arguments: [-R, 0.0885405771893914]","best classifier: weka.classifiers.functions.Logistic
+arguments: [-R, 0.0885405771893914]",0.861656151,0.861656151,0.861656151,0.861656151,1.11E-16,0.8616,0.8616,0.8616,0.8616,0,529,512,514
+dataset_61_iris,0.973684211,0.973684211,0.947368421,0.964912281,0.012405382,,,,0.973952283,0.973952283,0.946793885,0.964899484,0.012802591,"best classifier: weka.classifiers.trees.REPTree
+arguments: [-M, 4, -V, 5.806504604603544E-4, -L, 9, -P]","best classifier: weka.classifiers.trees.REPTree
+arguments: [-M, 4, -V, 5.806504604603544E-4, -L, 9, -P]","best classifier: weka.classifiers.meta.RandomSubSpace
+arguments: [-I, 5, -P, 0.5189339083860127, -S, 1, -W, weka.classifiers.functions.Logistic, --, -R, 7.337910468717164E-11]",0.976315789,0.976315789,0.951879699,0.968170426,0.011519283,0.973684211,0.973684211,0.947368421,0.964912281,0.012405382,508,508,508
+dataset_6_letter,0.935,,,0.935,0,,,,0.935102858,,,0.935102858,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",,,0.935594452,,,0.935594452,0,0.935,,,0.935,0,548,,
+dataset_9_autos,0.692307692,0.788461538,0.807692308,0.762820513,0.050474409,,,,0.687717556,0.791557718,0.806930451,0.762068575,0.052947368,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 3, -K, 0, -depth, 15]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 36, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 164, -K, 0, -depth, 0]",0.697863248,0.800647269,0.809507404,0.769339307,0.050670477,0.692307692,0.788461538,0.807692308,0.762820513,0.050474409,513,508,511
+devnagari,0,0,0,0,0,Timeout,Timeout,Timeout,0,0,0,0,0,,,,0,0,0,0,0,0,0,0,0,0,660,662,660
+electricity-normalized,0.734375,0.734375,0.734375,0.734375,0,,,,0.735165733,0.735165733,0.735165733,0.735165733,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",0.73666638,0.73666638,0.73666638,0.73666638,0,0.734375,0.734375,0.734375,0.734375,0,578,586,584
+eye_movements,0.38405267,0.38405267,0.38405267,0.38405267,0,,,,0.384283168,0.384283168,0.384283168,0.384283168,0,"best classifier: weka.classifiers.rules.OneR
+arguments: [-B, 1]","best classifier: weka.classifiers.rules.OneR
+arguments: [-B, 1]","best classifier: weka.classifiers.rules.OneR
+arguments: [-B, 1]",0.385946303,0.385946303,0.385946303,0.385946303,5.55E-17,0.38405267,0.38405267,0.38405267,0.38405267,5.55E-17,521,522,519
+gina_agnostic,0.888119954,,,0.888119954,0,,,,0.888071893,,,0.888071893,0,"best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 0.7127949742291734, -N, 0, -M, -K, weka.classifiers.functions.supportVector.PolyKernel -E 1.1133446901320447 -L]",,,0.888139964,,,0.888139964,0,0.888119954,,,0.888119954,0,597,,
+hiva_agnostic,0.964083176,0.964083176,0.964083176,0.964083176,0,,,,0.957690587,0.957690587,0.957690587,0.957690587,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",0.955928231,0.955928231,0.955928231,0.955928231,0,0.964083176,0.964083176,0.964083176,0.964083176,0,560,559,558
+ipums_la_99-small,0.850439883,0.850439883,0.850439883,0.850439883,0,,,,0.781703854,0.781703854,0.781703854,0.781703854,1.11E-16,"best classifier: weka.classifiers.rules.ZeroR
+arguments: []","best classifier: weka.classifiers.rules.ZeroR
+arguments: []","best classifier: weka.classifiers.rules.ZeroR
+arguments: []",0.723247994,0.723247994,0.723247994,0.723247994,0,0.850439883,0.850439883,0.850439883,0.850439883,0,569,569,569
+jm1,0.811168259,,,0.811168259,0,,,,0.767502742,,,0.767502742,0,"best classifier: weka.classifiers.meta.Vote
+arguments: [-R, AVG, -S, 1, -B, weka.classifiers.trees.RandomForest -I 193 -K 0 -depth 11]",,,0.773368278,,,0.773368278,0,0.811168259,,,0.811168259,0,568,,
+jungle_chess_2pcs_endgame_panther_lion,0.984693878,,,0.984693878,0,,,,0.984497616,,,0.984497616,0,"best classifier: weka.classifiers.trees.J48
+arguments: [-O, -J, -A, -S, -M, 3, -C, 0.5959403125099031]",,,0.984426584,,,0.984426584,0,0.984693878,,,0.984693878,0,525,,
+kin8nm,0.78515625,,,0.78515625,0,,,,0.785081477,,,0.785081477,0,"best classifier: weka.classifiers.functions.MultilayerPerceptron
+arguments: [-L, 0.9016538469375728, -M, 0.36063042122350475, -H, a, -R, -D, -S, 1]",,,0.785080218,,,0.785080218,0,0.78515625,,,0.78515625,0,546,,
+leukemia,1,1,1,1,0,,,,1,1,1,1,0,"best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: [-K]","best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: [-K]","best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: [-K]",1,1,1,1,0,1,1,1,1,0,644,649,647
+lymphoma_2classes,0.75,0.75,0.75,0.75,0,,,,0.751748252,0.751748252,0.751748252,0.751748252,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",0.763888889,0.763888889,0.763888889,0.763888889,0,0.75,0.75,0.75,0.75,0,545,545,540
+mfeat-pixel,0.996,0.996,0.996,0.996,0,,,,0.995961862,0.995961862,0.995961862,0.995961862,0,"best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 1.0574050316054016, -N, 0, -K, weka.classifiers.functions.supportVector.NormalizedPolyKernel -E 4.819706475007974]","best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 1.0574050316054016, -N, 0, -K, weka.classifiers.functions.supportVector.NormalizedPolyKernel -E 4.819706475007974]","best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 1.0574050316054016, -N, 0, -K, weka.classifiers.functions.supportVector.NormalizedPolyKernel -E 4.819706475007974]",0.996017621,0.996017621,0.996017621,0.996017621,0,0.996,0.996,0.996,0.996,0,535,523,521
+mnist_784,0,0,0,0,0,Timeout,Timeout,Timeout,0,0,0,0,0,,,,0,0,0,0,0,0,0,0,0,0,660,660,660
+openml_phpJNxH0q,0.982857143,0.982857143,0.982857143,0.982857143,1.11E-16,,,,0.982817456,0.982817456,0.982817456,0.982817456,0,"best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: [-D]","best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: [-D]","best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: [-D]",0.98285114,0.98285114,0.98285114,0.98285114,0,0.982857143,0.982857143,0.982857143,0.982857143,1.11E-16,510,510,42
+page-blocks,0.977355734,,,0.977355734,0,,,,0.97695999,,,0.97695999,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",,,0.976892731,,,0.976892731,0,0.977355734,,,0.977355734,0,543,,
+php0FyS2T,0.4925,,,0.4925,0,,,,0.486282676,,,0.486282676,0,"best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: []",,,0.549193452,,,0.549193452,0,0.4925,,,0.4925,0,539,,
+php3CTpvq,0.541156617,0.541156617,0.541156617,0.541156617,0,,,,0.541592702,0.541592702,0.541592702,0.541592702,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",0.544967482,0.544967482,0.544967482,0.544967482,0,0.541156617,0.541156617,0.541156617,0.541156617,0,622,617,628
+php5OMDBD,0.992,,,0.992,0,,,,0.992355556,,,0.992355556,0,"best classifier: weka.classifiers.trees.RandomTree
+arguments: [-M, 3, -K, 0, -depth, 0, -N, 0]",,,0.994666667,,,0.994666667,0,0.992,,,0.992,0,558,,
+php5s7Ep8,0.775720165,,,0.775720165,0,,,,0.768011817,,,0.768011817,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",,,0.784187647,,,0.784187647,0,0.775720165,,,0.775720165,0,571,,
+php7KLval,0.748,,,0.748,0,,,,0.64016476,,,0.64016476,0,"best classifier: weka.classifiers.trees.J48
+arguments: [-J, -M, 3]",,,0.559504,,,0.559504,0,0.748,,,0.748,0,508,,
+phpB0xrNj,0.879487179,0.879487179,0.879487179,0.879487179,0,,,,0.879336453,0.879336453,0.879336453,0.879336453,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",0.88523361,0.88523361,0.88523361,0.88523361,0,0.879487179,0.879487179,0.879487179,0.879487179,0,609,629,621
+phpCsX3fx,0.7825,,,0.7825,0,,,,0.785017194,,,0.785017194,0,"best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: [-K]",,,0.839242063,,,0.839242063,0,0.7825,,,0.7825,0,569,,
+phpEZ030X,0.75,,,0.75,0,,,,0.75,,,0.75,0,"best classifier: weka.classifiers.rules.OneR
+arguments: [-B, 8]",,,0.773809524,,,0.773809524,0,0.75,,,0.75,0,542,,
+phpGReJjU,1,1,1,1,0,,,,1,1,1,1,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",1,1,1,1,0,1,1,1,1,0,545,528,529
+phpGUrE90,0.878787879,,,0.878787879,0,,,,0.878211401,,,0.878211401,0,"best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 1.0574050316054016, -N, 0, -K, weka.classifiers.functions.supportVector.NormalizedPolyKernel -E 4.819706475007974]",,,0.878067837,,,0.878067837,0,0.878787879,,,0.878787879,0,513,,
+phpHyLSNF,0.832167832,,,0.832167832,0,,,,0.832222049,,,0.832222049,0,"best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: []",,,0.854598432,,,0.854598432,0,0.832167832,,,0.832167832,0,556,,
+phpN4gaxw,0.932432432,,,0.932432432,0,,,,0.932402359,,,0.932402359,0,"best classifier: weka.classifiers.functions.Logistic
+arguments: [-R, 0.0885405771893914]",,,0.932588531,,,0.932588531,0,0.932432432,,,0.932432432,0,585,,
+phpNevWWL,0.715714286,,,0.715714286,0,,,,0.694494019,,,0.694494019,0,"best classifier: weka.classifiers.functions.MultilayerPerceptron
+arguments: [-L, 0.265210677723732, -M, 0.6480391030920175, -H, o, -C, -R, -D, -S, 1]",,,0.686403143,,,0.686403143,0,0.715714286,,,0.715714286,0,558,,
+phpPbCMyg,0.588235294,,,0.588235294,0,,,,0.580196974,,,0.580196974,0,"best classifier: weka.classifiers.meta.AdaBoostM1
+arguments: [-P, 100, -I, 10, -Q, -S, 1, -W, weka.classifiers.trees.RandomForest, --, -I, 43, -K, 0, -depth, 20]",,,0.575413981,,,0.575413981,0,0.588235294,,,0.588235294,0,583,,
+phpSZJq5T,0.922222222,,,0.922222222,0,,,,0.923177975,,,0.923177975,0,"best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: []",,,0.938232323,,,0.938232323,0,0.922222222,,,0.922222222,0,569,,
+phpTJRsqa,0.678367347,,,0.678367347,0,,,,0.667600825,,,0.667600825,0,"best classifier: weka.classifiers.lazy.IBk
+arguments: [-E, -K, 21, -I]",,,0.682298727,,,0.682298727,0,0.678367347,,,0.678367347,0,516,,
+phpVeNa5j,0.995601173,,,0.995601173,0,,,,0.995601494,,,0.995601494,0,"best classifier: weka.classifiers.meta.AdaBoostM1
+arguments: [-P, 100, -I, 10, -Q, -S, 1, -W, weka.classifiers.trees.RandomForest, --, -I, 43, -K, 0, -depth, 20]",,,0.995623563,,,0.995623563,0,0.995601173,,,0.995601173,0,534,,
+phpWfYmlu,0.963783784,0.972972973,0.972972973,0.96990991,0.004331825,,,,0.963743074,0.972971646,0.972971646,0.969895455,0.004350391,"best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 1.0574050316054016, -N, 0, -K, weka.classifiers.functions.supportVector.NormalizedPolyKernel -E 4.819706475007974]","best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: [-K]","best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: [-K]",0.965947532,0.973081782,0.973081782,0.970703698,0.003363118,0.963783784,0.972972973,0.972972973,0.96990991,0.004331825,634,552,610
+phpYLeydd,0.593762657,,,0.593762657,0,,,,0.580850069,,,0.580850069,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",,,0.58749545,,,0.58749545,0,0.593762657,,,0.593762657,0,516,,
+phpZrCzJR,0.992156863,,,0.992156863,0,,,,0.99124661,,,0.99124661,0,"best classifier: weka.classifiers.rules.OneR
+arguments: [-B, 2]",,,0.991718955,,,0.991718955,0,0.992156863,,,0.992156863,0,539,,
+phpbL6t4U,0.979873491,,,0.979873491,0,,,,0.979842646,,,0.979842646,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",,,0.979871663,,,0.979871663,0,0.979873491,,,0.979873491,0,532,,
+phpchCuL5,1,,,1,0,,,,1,,,1,0,"best classifier: weka.classifiers.trees.REPTree
+arguments: [-M, 9, -V, 0.0032399393731372215, -L, -1, -P]",,,1,,,1,0,1,,,1,0,546,,
+phpdReP6S,0.933753943,,,0.933753943,0,,,,0.910884369,,,0.910884369,0,"best classifier: weka.classifiers.functions.MultilayerPerceptron
+arguments: [-L, 0.9016538469375728, -M, 0.36063042122350475, -H, a, -R, -D, -S, 1]",,,0.912950573,,,0.912950573,0,0.933753943,,,0.933753943,0,592,,
+phpdo58hj,0.875,,,0.875,0,,,,0.875,,,0.875,0,"best classifier: weka.classifiers.bayes.NaiveBayesMultinomial
+arguments: []",,,0.875,,,0.875,0,0.875,,,0.875,0,572,,
+phpfLuQE4,0.786153846,0.786153846,0.786153846,0.786153846,0,,,,0.786141193,0.786141193,0.786141193,0.786141193,0,"best classifier: weka.classifiers.lazy.IBk
+arguments: [-K, 3, -I]","best classifier: weka.classifiers.lazy.IBk
+arguments: [-K, 3, -I]","best classifier: weka.classifiers.lazy.IBk
+arguments: [-K, 3, -I]",0.788458125,0.788458125,0.788458125,0.788458125,1.11E-16,0.786153846,0.786153846,0.786153846,0.786153846,0,545,549,549
+phpfrJpBS,0.924382716,,,0.924382716,0,,,,0.924868314,,,0.924868314,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",,,0.925490037,,,0.925490037,0,0.924382716,,,0.924382716,0,517,,
+phphQEck0,0.886933812,,,0.886933812,0,,,,0.885721285,,,0.885721285,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",,,0.884840054,,,0.884840054,0,0.886933812,,,0.886933812,0,582,,
+phpkIxskf,0.899407237,,,0.899407237,0,,,,0.881399058,,,0.881399058,0,"best classifier: weka.classifiers.meta.Bagging
+arguments: [-P, 74, -I, 4, -S, 1, -W, weka.classifiers.rules.PART, --, -N, 4, -M, 44, -R, -B]",,,0.884049409,,,0.884049409,0,0.899407237,,,0.899407237,0,560,,
+phpmPOD5A,0.94544123,,,0.94544123,0,,,,0.940962477,,,0.940962477,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",,,0.938203953,,,0.938203953,0,0.94544123,,,0.94544123,0,562,,
+phpmcGu2X,0.818518519,,,0.818518519,0,,,,0.822576417,,,0.822576417,0,"best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: []",,,0.87696543,,,0.87696543,0,0.818518519,,,0.818518519,0,536,,
+phpn1jVwe,0.973533619,,,0.973533619,0,,,,0.967042412,,,0.967042412,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 7, -K, 4, -depth, 5]",,,0.966088223,,,0.966088223,0,0.973533619,,,0.973533619,0,56,,
+phpoOxxNn,0.77,,,0.77,0,,,,0.772856824,,,0.772856824,0,"best classifier: weka.classifiers.functions.SimpleLogistic
+arguments: [-S, -W, 0]",,,0.821133929,,,0.821133929,0,0.77,,,0.77,0,554,,
+phpoW7Dbi,0.894389439,,,0.894389439,0,,,,0.89439174,,,0.89439174,0,"best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 1.0574050316054016, -N, 0, -K, weka.classifiers.functions.supportVector.NormalizedPolyKernel -E 4.819706475007974]",,,0.894471976,,,0.894471976,0,0.894389439,,,0.894389439,0,515,,
+phprAeXmK,0.950308733,0.950308733,0.950308733,0.950308733,1.11E-16,,,,0.940090007,0.940090007,0.940090007,0.940090007,0,"best classifier: weka.classifiers.rules.DecisionTable
+arguments: [-E, mae, -S, weka.attributeSelection.BestFirst, -X, 3]","best classifier: weka.classifiers.rules.DecisionTable
+arguments: [-E, mae, -S, weka.attributeSelection.BestFirst, -X, 3]","best classifier: weka.classifiers.rules.DecisionTable
+arguments: [-E, mae, -S, weka.attributeSelection.BestFirst, -X, 3]",0.94234999,0.94234999,0.94234999,0.94234999,0,0.950308733,0.950308733,0.950308733,0.950308733,1.11E-16,632,632,631
+phptd5jYj,0.84962406,,,0.84962406,0,,,,0.85072291,,,0.85072291,0,"best classifier: weka.classifiers.functions.Logistic
+arguments: [-R, 0.0885405771893914]",,,0.857837953,,,0.857837953,0,0.84962406,,,0.84962406,0,639,,
+phpvcoG8S,0.641976774,,,0.641976774,0,,,,0.625193533,,,0.625193533,0,"best classifier: weka.classifiers.bayes.BayesNet
+arguments: [-D, -Q, weka.classifiers.bayes.net.search.local.TAN]",,,0.644657949,,,0.644657949,0,0.641976774,,,0.641976774,0,589,,
+phpvtdNPU,0,,,0,0,Timeout,,,0,,,0,0,,,,0,,,0,0,0,,,0,0,660,,
+phpxijhaP,0.984324324,,,0.984324324,0,,,,0.984323706,,,0.984323706,0,"best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 0.7127949742291734, -N, 0, -M, -K, weka.classifiers.functions.supportVector.PolyKernel -E 1.1133446901320447 -L]",,,0.984369687,,,0.984369687,0,0.984324324,,,0.984324324,0,541,,
+pokerhand-normalized,0,0,0,0,0,Timeout,Timeout,Timeout,0,0,0,0,0,,,,0,0,0,0,0,0,0,0,0,0,660,660,660
+schizo,1,,,1,0,,,,1,,,1,0,"best classifier: weka.classifiers.rules.OneR
+arguments: [-B, 1]",,,1,,,1,0,1,,,1,0,557,,
+shuttle,0.998758621,,,0.998758621,0,,,,0.998532648,,,0.998532648,0,"best classifier: weka.classifiers.trees.REPTree
+arguments: [-M, 1, -V, 9.732121077003388E-4, -L, -1, -P]",,,0.998415045,,,0.998415045,0,0.998758621,,,0.998758621,0,548,,
+solar-flare_1,0.797468354,,,0.797468354,0,,,,0.783518471,,,0.783518471,0,"best classifier: weka.classifiers.lazy.LWL
+arguments: [-K, 90, -A, weka.core.neighboursearch.LinearNNSearch, -W, weka.classifiers.trees.RandomTree, --, -M, 36, -K, 4, -depth, 0, -N, 0]",,,0.771178189,,,0.771178189,0,0.797468354,,,0.797468354,0,510,,
+synthetic_control,0.96,,,0.96,0,,,,0.95993042,,,0.95993042,0,"best classifier: weka.classifiers.functions.MultilayerPerceptron
+arguments: [-L, 0.3828665974929958, -M, 0.7606801073157273, -B, -H, a, -C, -S, 1]",,,0.960346016,,,0.960346016,0,0.96,,,0.96,0,593,,
+tumors_C,0.6,,,0.6,0,,,,0.6,,,0.6,0,"best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 0.8874101848849779, -N, 0, -M, -K, weka.classifiers.functions.supportVector.PolyKernel -E 3.995499668306657]",,,0.6,,,0.6,0,0.6,,,0.6,0,645,,
+umistfacescropped,0,0,,0,0,Timeout,Timeout,,0,0,,0,0,,,,0,0,,0,0,0,0,,0,0,660,660,
+vowel,1,1,1,1,0,,,,1,1,1,1,0,"best classifier: weka.classifiers.lazy.IBk
+arguments: [-K, 1, -I]","best classifier: weka.classifiers.lazy.IBk
+arguments: [-E, -K, 4, -X, -F]","best classifier: weka.classifiers.lazy.IBk
+arguments: [-K, 23, -X, -I]",1,1,1,1,0,1,1,1,1,0,508,510,520
+wine-quality-red,0.6975,0.6975,0.6975,0.6975,1.11E-16,,,,0.679235335,0.679235335,0.679235335,0.679235335,0,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 125, -K, 5, -depth, 14]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 125, -K, 5, -depth, 14]","best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 125, -K, 5, -depth, 14]",0.670371679,0.670371679,0.670371679,0.670371679,0,0.6975,0.6975,0.6975,0.6975,1.11E-16,550,532,513

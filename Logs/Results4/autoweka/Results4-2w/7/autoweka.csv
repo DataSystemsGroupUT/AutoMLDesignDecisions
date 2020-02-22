@@ -1,0 +1,5 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+phpoOxxNn,15360.0,0.755,0.8052083333333333,0.755,0.7628556859806861,"best classifier: weka.classifiers.functions.Logistic
+arguments: [-R, 0.0885405771893914]",0.755,0.0,0.8052083333333333,0.0,0.755,0.0,0.7628556859806861,0.0
+phpoW7Dbi,12011.0,0.49504950495049505,0.2450740123517302,0.49504950495049505,0.327847354271851,"best classifier: weka.classifiers.functions.SGD
+arguments: [-F, 1, -L, 1.1801980145426108E-5, -R, 1.113393439028679E-12, -N]",0.49504950495049505,0.0,0.2450740123517302,0.0,0.49504950495049505,0.0,0.327847354271851,0.0

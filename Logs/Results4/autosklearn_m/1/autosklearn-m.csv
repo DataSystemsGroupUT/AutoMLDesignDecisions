@@ -1,0 +1,65 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+dataset_183_adult,14398.97236084938,0.8588977151748424,0.853473243640943,0.8588977151748424,0.8546204079863398,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'none', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'gradient_boosting', 'imputation:strategy': 'median', 'preprocessor:__choice__': 'select_rates', 'rescaling:__choice__': 'none', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'classifier:gradient_boosting:criterion': 'mse', 'classifier:gradient_boosting:learning_rate': 0.07246630884689781, 'classifier:gradient_boosting:loss': 'deviance', 'classifier:gradient_boosting:max_depth': 3, 'classifier:gradient_boosting:max_features': 0.2330392577970277, 'classifier:gradient_boosting:max_leaf_nodes': 'None', 'classifier:gradient_boosting:min_impurity_decrease': 0.0, 'classifier:gradient_boosting:min_samples_leaf': 11, 'classifier:gradient_boosting:min_samples_split': 10, 'classifier:gradient_boosting:min_weight_fraction_leaf': 0.0, 'classifier:gradient_boosting:n_estimators': 361, 'classifier:gradient_boosting:subsample': 0.7095934291768283, 'preprocessor:select_rates:alpha': 0.036455843929068595, 'preprocessor:select_rates:mode': 'fdr', 'preprocessor:select_rates:score_func': 'chi2', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.011714093850330965},
+dataset_properties={
+  'task': 1,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': False,
+  'target_type': 'classification',
+  'signed': False}))]",0.8588977151748424,0.0,0.853473243640943,0.0,0.8588977151748424,0.0,0.8546204079863398,0.0
+dataset_185_yeast,14402.962637662888,0.5525606469002695,0.5592864062415723,0.5525606469002695,0.5494179039069592,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'none', 'categorical_encoding:__choice__': 'no_encoding', 'classifier:__choice__': 'gradient_boosting', 'imputation:strategy': 'most_frequent', 'preprocessor:__choice__': 'polynomial', 'rescaling:__choice__': 'normalize', 'classifier:gradient_boosting:criterion': 'mae', 'classifier:gradient_boosting:learning_rate': 0.04631683165693792, 'classifier:gradient_boosting:loss': 'deviance', 'classifier:gradient_boosting:max_depth': 8, 'classifier:gradient_boosting:max_features': 0.4858133247974158, 'classifier:gradient_boosting:max_leaf_nodes': 'None', 'classifier:gradient_boosting:min_impurity_decrease': 0.0, 'classifier:gradient_boosting:min_samples_leaf': 5, 'classifier:gradient_boosting:min_samples_split': 16, 'classifier:gradient_boosting:min_weight_fraction_leaf': 0.0, 'classifier:gradient_boosting:n_estimators': 500, 'classifier:gradient_boosting:subsample': 0.7028004178065118, 'preprocessor:polynomial:degree': 2, 'preprocessor:polynomial:include_bias': 'True', 'preprocessor:polynomial:interaction_only': 'False'},
+dataset_properties={
+  'task': 2,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': True,
+  'target_type': 'classification',
+  'signed': False}))]",0.5525606469002695,0.0,0.5592864062415723,0.0,0.5525606469002695,0.0,0.5494179039069592,0.0
+dataset_186_satimage,14401.400172710419,0.9203980099502488,0.9194851206820748,0.9203980099502488,0.9195987157113453,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'weighting', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'gradient_boosting', 'imputation:strategy': 'median', 'preprocessor:__choice__': 'no_preprocessing', 'rescaling:__choice__': 'robust_scaler', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'classifier:gradient_boosting:criterion': 'mse', 'classifier:gradient_boosting:learning_rate': 0.0433556140045585, 'classifier:gradient_boosting:loss': 'deviance', 'classifier:gradient_boosting:max_depth': 10, 'classifier:gradient_boosting:max_features': 0.33000096635982235, 'classifier:gradient_boosting:max_leaf_nodes': 'None', 'classifier:gradient_boosting:min_impurity_decrease': 0.0, 'classifier:gradient_boosting:min_samples_leaf': 17, 'classifier:gradient_boosting:min_samples_split': 13, 'classifier:gradient_boosting:min_weight_fraction_leaf': 0.0, 'classifier:gradient_boosting:n_estimators': 388, 'classifier:gradient_boosting:subsample': 0.8291104221904706, 'rescaling:robust_scaler:q_max': 0.7496393440951183, 'rescaling:robust_scaler:q_min': 0.2853682991120835},
+dataset_properties={
+  'task': 2,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': True,
+  'target_type': 'classification',
+  'signed': False}))]",0.9203980099502488,0.0,0.9194851206820748,0.0,0.9203980099502488,0.0,0.9195987157113453,0.0
+dataset_194_eucalyptus,14402.123105049133,0.6684782608695652,0.6846035974107807,0.6684782608695652,0.6698285377667271,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'none', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'gradient_boosting', 'imputation:strategy': 'mean', 'preprocessor:__choice__': 'polynomial', 'rescaling:__choice__': 'minmax', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'classifier:gradient_boosting:criterion': 'mse', 'classifier:gradient_boosting:learning_rate': 0.0116846757435227, 'classifier:gradient_boosting:loss': 'deviance', 'classifier:gradient_boosting:max_depth': 6, 'classifier:gradient_boosting:max_features': 0.9846264726077538, 'classifier:gradient_boosting:max_leaf_nodes': 'None', 'classifier:gradient_boosting:min_impurity_decrease': 0.0, 'classifier:gradient_boosting:min_samples_leaf': 4, 'classifier:gradient_boosting:min_samples_split': 16, 'classifier:gradient_boosting:min_weight_fraction_leaf': 0.0, 'classifier:gradient_boosting:n_estimators': 222, 'classifier:gradient_boosting:subsample': 0.37619614907802607, 'preprocessor:polynomial:degree': 2, 'preprocessor:polynomial:include_bias': 'False', 'preprocessor:polynomial:interaction_only': 'False', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.010000000000000004},
+dataset_properties={
+  'task': 2,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': True,
+  'target_type': 'classification',
+  'signed': False}))]",0.6684782608695652,0.0,0.6846035974107807,0.0,0.6684782608695652,0.0,0.6698285377667271,0.0
+dataset_40_sonar,14396.685852527618,0.8076923076923077,0.8140730237504431,0.8076923076923077,0.8059624034136779,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'none', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'gradient_boosting', 'imputation:strategy': 'most_frequent', 'preprocessor:__choice__': 'polynomial', 'rescaling:__choice__': 'none', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'classifier:gradient_boosting:criterion': 'mse', 'classifier:gradient_boosting:learning_rate': 0.15939919372965727, 'classifier:gradient_boosting:loss': 'deviance', 'classifier:gradient_boosting:max_depth': 1, 'classifier:gradient_boosting:max_features': 0.9885438375764455, 'classifier:gradient_boosting:max_leaf_nodes': 'None', 'classifier:gradient_boosting:min_impurity_decrease': 0.0, 'classifier:gradient_boosting:min_samples_leaf': 10, 'classifier:gradient_boosting:min_samples_split': 14, 'classifier:gradient_boosting:min_weight_fraction_leaf': 0.0, 'classifier:gradient_boosting:n_estimators': 440, 'classifier:gradient_boosting:subsample': 0.8396926822617112, 'preprocessor:polynomial:degree': 3, 'preprocessor:polynomial:include_bias': 'True', 'preprocessor:polynomial:interaction_only': 'False'},
+dataset_properties={
+  'task': 1,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': False,
+  'target_type': 'classification',
+  'signed': False}))]",0.8076923076923077,0.0,0.8140730237504431,0.0,0.8076923076923077,0.0,0.8059624034136779,0.0
+dataset_42_soybean,14413.25530719757,0.9590643274853801,0.9647778449956309,0.9590643274853801,0.957460810092389,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'none', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'gradient_boosting', 'imputation:strategy': 'mean', 'preprocessor:__choice__': 'feature_agglomeration', 'rescaling:__choice__': 'normalize', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'classifier:gradient_boosting:criterion': 'friedman_mse', 'classifier:gradient_boosting:learning_rate': 0.013339275090248782, 'classifier:gradient_boosting:loss': 'deviance', 'classifier:gradient_boosting:max_depth': 3, 'classifier:gradient_boosting:max_features': 0.24756030932218395, 'classifier:gradient_boosting:max_leaf_nodes': 'None', 'classifier:gradient_boosting:min_impurity_decrease': 0.0, 'classifier:gradient_boosting:min_samples_leaf': 1, 'classifier:gradient_boosting:min_samples_split': 7, 'classifier:gradient_boosting:min_weight_fraction_leaf': 0.0, 'classifier:gradient_boosting:n_estimators': 377, 'classifier:gradient_boosting:subsample': 0.505782160745905, 'preprocessor:feature_agglomeration:affinity': 'euclidean', 'preprocessor:feature_agglomeration:linkage': 'ward', 'preprocessor:feature_agglomeration:n_clusters': 171, 'preprocessor:feature_agglomeration:pooling_func': 'median'},
+dataset_properties={
+  'task': 2,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': True,
+  'target_type': 'classification',
+  'signed': False}))]",0.9590643274853801,0.0,0.9647778449956309,0.0,0.9590643274853801,0.0,0.957460810092389,0.0
+dataset_44_spambase,14397.062891244888,0.9539530842745438,0.95405907328255,0.9539530842745438,0.9537856512346355,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'weighting', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'extra_trees', 'imputation:strategy': 'mean', 'preprocessor:__choice__': 'polynomial', 'rescaling:__choice__': 'quantile_transformer', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'classifier:extra_trees:bootstrap': 'False', 'classifier:extra_trees:criterion': 'gini', 'classifier:extra_trees:max_depth': 'None', 'classifier:extra_trees:max_features': 0.5, 'classifier:extra_trees:max_leaf_nodes': 'None', 'classifier:extra_trees:min_impurity_decrease': 0.0, 'classifier:extra_trees:min_samples_leaf': 1, 'classifier:extra_trees:min_samples_split': 7, 'classifier:extra_trees:min_weight_fraction_leaf': 0.0, 'classifier:extra_trees:n_estimators': 100, 'preprocessor:polynomial:degree': 2, 'preprocessor:polynomial:include_bias': 'False', 'preprocessor:polynomial:interaction_only': 'True', 'rescaling:quantile_transformer:n_quantiles': 58, 'rescaling:quantile_transformer:output_distribution': 'normal', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.010000000000000004},
+dataset_properties={
+  'task': 1,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': False,
+  'target_type': 'classification',
+  'signed': False}))]",0.9539530842745438,0.0,0.95405907328255,0.0,0.9539530842745438,0.0,0.9537856512346355,0.0
+dataset_60_waveform-5000,14398.86433172226,0.868,0.8679054257652442,0.868,0.8678915193375877,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'weighting', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'passive_aggressive', 'imputation:strategy': 'most_frequent', 'preprocessor:__choice__': 'polynomial', 'rescaling:__choice__': 'minmax', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'classifier:passive_aggressive:C': 0.0015666586569537504, 'classifier:passive_aggressive:average': 'True', 'classifier:passive_aggressive:fit_intercept': 'True', 'classifier:passive_aggressive:loss': 'squared_hinge', 'classifier:passive_aggressive:tol': 0.0065713910026287915, 'preprocessor:polynomial:degree': 2, 'preprocessor:polynomial:include_bias': 'True', 'preprocessor:polynomial:interaction_only': 'True'},
+dataset_properties={
+  'task': 2,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': True,
+  'target_type': 'classification',
+  'signed': False}))]",0.868,0.0,0.8679054257652442,0.0,0.868,0.0,0.8678915193375877,0.0

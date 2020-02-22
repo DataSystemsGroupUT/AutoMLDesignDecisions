@@ -1,0 +1,3 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+connect-4,13477.0,0.7069271758436945,0.6637036715960829,0.7069271758436945,0.6539400220472215,"best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]",0.7069271758436945,0.0,0.6637036715960829,0.0,0.7069271758436945,0.0,0.6539400220472215,0.0

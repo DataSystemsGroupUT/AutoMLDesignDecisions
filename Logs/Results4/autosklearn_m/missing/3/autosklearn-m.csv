@@ -1,0 +1,25 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+dataset_36_segment,14401.02865409851,0.9826989619377162,0.9832896329887454,0.9826989619377162,0.9828218508462708,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'weighting', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'gradient_boosting', 'imputation:strategy': 'mean', 'preprocessor:__choice__': 'no_preprocessing', 'rescaling:__choice__': 'quantile_transformer', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'classifier:gradient_boosting:criterion': 'friedman_mse', 'classifier:gradient_boosting:learning_rate': 0.138918478400726, 'classifier:gradient_boosting:loss': 'deviance', 'classifier:gradient_boosting:max_depth': 4, 'classifier:gradient_boosting:max_features': 0.5627973862752437, 'classifier:gradient_boosting:max_leaf_nodes': 'None', 'classifier:gradient_boosting:min_impurity_decrease': 0.0, 'classifier:gradient_boosting:min_samples_leaf': 11, 'classifier:gradient_boosting:min_samples_split': 20, 'classifier:gradient_boosting:min_weight_fraction_leaf': 0.0, 'classifier:gradient_boosting:n_estimators': 392, 'classifier:gradient_boosting:subsample': 0.7008285397036765, 'rescaling:quantile_transformer:n_quantiles': 1907, 'rescaling:quantile_transformer:output_distribution': 'uniform'},
+dataset_properties={
+  'task': 2,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': True,
+  'target_type': 'classification',
+  'signed': False}))]",0.9826989619377162,0.0,0.9832896329887454,0.0,0.9826989619377162,0.0,0.9828218508462708,0.0
+dataset_59_ionosphere,14409.342973947525,0.9318181818181818,0.933982683982684,0.9318181818181818,0.9307210031347961,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'none', 'categorical_encoding:__choice__': 'no_encoding', 'classifier:__choice__': 'passive_aggressive', 'imputation:strategy': 'mean', 'preprocessor:__choice__': 'kernel_pca', 'rescaling:__choice__': 'normalize', 'classifier:passive_aggressive:C': 2.033817112278116, 'classifier:passive_aggressive:average': 'True', 'classifier:passive_aggressive:fit_intercept': 'True', 'classifier:passive_aggressive:loss': 'squared_hinge', 'classifier:passive_aggressive:tol': 0.08159091243796301, 'preprocessor:kernel_pca:kernel': 'rbf', 'preprocessor:kernel_pca:n_components': 1319, 'preprocessor:kernel_pca:gamma': 5.1734918727672055},
+dataset_properties={
+  'task': 1,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': False,
+  'target_type': 'classification',
+  'signed': False}))]",0.9318181818181818,0.0,0.933982683982684,0.0,0.9318181818181818,0.0,0.9307210031347961,0.0
+hiva_agnostic,14397.702045440674,0.9640831758034026,0.9547400564811768,0.9640831758034026,0.9550152647334711,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'none', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'random_forest', 'imputation:strategy': 'mean', 'preprocessor:__choice__': 'select_rates', 'rescaling:__choice__': 'normalize', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'classifier:random_forest:bootstrap': 'True', 'classifier:random_forest:criterion': 'entropy', 'classifier:random_forest:max_depth': 'None', 'classifier:random_forest:max_features': 0.7321079289648507, 'classifier:random_forest:max_leaf_nodes': 'None', 'classifier:random_forest:min_impurity_decrease': 0.0, 'classifier:random_forest:min_samples_leaf': 1, 'classifier:random_forest:min_samples_split': 7, 'classifier:random_forest:min_weight_fraction_leaf': 0.0, 'classifier:random_forest:n_estimators': 100, 'preprocessor:select_rates:alpha': 0.031763103356050204, 'preprocessor:select_rates:mode': 'fpr', 'preprocessor:select_rates:score_func': 'f_classif', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.22003677265681557},
+dataset_properties={
+  'task': 1,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': False,
+  'target_type': 'classification',
+  'signed': False}))]",0.9640831758034026,0.0,0.9547400564811768,0.0,0.9640831758034026,0.0,0.9550152647334711,0.0

@@ -1,0 +1,7 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+phpdo58hj,14402.703194618225,0.875,0.875,0.875,0.875,"Pipeline(memory=None,
+     steps=[('featureunion', FeatureUnion(n_jobs=None,
+       transformer_list=[('functiontransformer-1', FunctionTransformer(accept_sparse=False, check_inverse=True,
+          func=<function copy at 0x7f7e1249bd90>, inv_kw_args=None,
+          inverse_func=None, kw_args=None, pass_y='deprecated',
+      ...old=0.05)), ('bernoullinb', BernoulliNB(alpha=0.1, binarize=0.0, class_prior=None, fit_prior=True))])",0.875,0.0,0.875,0.0,0.875,0.0,0.875,0.0

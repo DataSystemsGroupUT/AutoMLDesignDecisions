@@ -1,0 +1,9 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+leukemia,14413.008579492569,0.9444444444444444,0.949074074074074,0.9444444444444444,0.9435154217762913,"[(1.0, SimpleClassificationPipeline({'balancing:strategy': 'weighting', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'lda', 'imputation:strategy': 'median', 'preprocessor:__choice__': 'select_rates', 'rescaling:__choice__': 'none', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'classifier:lda:n_components': 121, 'classifier:lda:shrinkage': 'auto', 'classifier:lda:tol': 0.04083319360369812, 'preprocessor:select_rates:alpha': 0.40663188354712254, 'preprocessor:select_rates:mode': 'fwe', 'preprocessor:select_rates:score_func': 'chi2'},
+dataset_properties={
+  'task': 1,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': False,
+  'target_type': 'classification',
+  'signed': False}))]",0.9444444444444444,0.0,0.949074074074074,0.0,0.9444444444444444,0.0,0.9435154217762913,0.0

@@ -1,0 +1,7 @@
+,time_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+php7KLval,12011.0,0.816,0.8124774535809018,0.816,0.7896666666666666,"best classifier: weka.classifiers.rules.JRip
+arguments: [-N, 4.033830882536767, -E, -O, 2]",0.816,0.0,0.8124774535809018,0.0,0.816,0.0,0.7896666666666666,0.0
+phpCsX3fx,12599.0,0.785,0.850017857142857,0.785,0.7928218170718169,"best classifier: weka.classifiers.bayes.NaiveBayes
+arguments: []",0.785,0.0,0.850017857142857,0.0,0.785,0.0,0.7928218170718169,0.0
+phpdo58hj,13032.0,0.75,0.75,0.75,0.75,"best classifier: weka.classifiers.bayes.BayesNet
+arguments: [-Q, weka.classifiers.bayes.net.search.local.TAN]",0.75,0.0,0.75,0.0,0.75,0.0,0.75,0.0

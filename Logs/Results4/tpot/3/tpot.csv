@@ -1,0 +1,15 @@
+,time_1,error_1,accuracy_1,precision_1,recall_1,f1score_1,model_1,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1score_mean,f1score_std
+KDDCup99,14609.884369134903,A pipeline has not yet been optimized. Please call fit() first.,,,,,,,,,,,,,
+eye_movements,14522.802842378616,,0.7710314557425019,0.7727697213715892,0.7710314557425019,0.7715126651030283,"Pipeline(memory=None,
+     steps=[('rfe', RFE(estimator=ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=None, max_features=0.35000000000000003,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_sampl...tors=100, n_jobs=None,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])",0.7710314557425019,0.0,0.7727697213715892,0.0,0.7710314557425019,0.0,0.7715126651030283,0.0
+hiva_agnostic,14432.22049331665,,0.9688090737240076,0.9650530541529467,0.9688090737240076,0.9604949356185394,"Pipeline(memory=None,
+     steps=[('linearsvc', LinearSVC(C=0.01, class_weight=None, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+     verbose=0))])",0.9688090737240076,0.0,0.9650530541529467,0.0,0.9688090737240076,0.0,0.9604949356185394,0.0
+mnist_784,14413.93623137474,A pipeline has not yet been optimized. Please call fit() first.,,,,,,,,,,,,,
