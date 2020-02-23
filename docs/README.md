@@ -1,11 +1,11 @@
 # AutoML Micro Analysis
 In this study, we focus on the Microlevel by empirically evaluating and analyzing the performance impact of several design decisions and parameters including meta-learning,ensembling,time budget and size of search space,separately and combined. The results of our study reveal various interesting insights that can significantly guide and impact the design of AutoML frameworks.
-* ### [Benchmark Datasets](#benchmark-datasets)
-* ### Experiment Setup
-* ### Results 
-  * #### Impact of Meta-learning 
-  * #### Impact of Ensembling 
-  * #### Impact of Time Budget 
+* [Benchmark Datasets](#benchmark-datasets)
+* Experiment Setup
+* Results 
+  * Impact of Meta-learning 
+  * Impact of Ensembling 
+  * Impact of Time Budget 
 
 ## Benchmark Datasets
 We used 100 datasets from [OpenML](https://www.openml.org/) repository. We selected them to cover different characteristics of datasets including the number of classes, number of instances, number of features, etc.
