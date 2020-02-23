@@ -51,7 +51,7 @@ We used 100 datasets from [OpenML](https://www.openml.org/) repository. We selec
 |hiva_agnostic|[https://www.openml.org/d/1039](https://www.openml.org/d/1039)|1618|4229|2|
 |ipums_la_99-small|[https://www.openml.org/d/378](https://www.openml.org/d/378)|60|8844|9|
 |jm1|[https://www.openml.org/d/1053](https://www.openml.org/d/1053)|22|10885|2|
-|jungle_chess_2pcs_endgame_panther_lion|[https://www.openml.org/d/40997](https://www.openml.org/d/40997)|45|4704|3|
+|jungle_chess_2pcs|[https://www.openml.org/d/40997](https://www.openml.org/d/40997)|45|4704|3|
 |KDDCup99|[https://www.openml.org/d/1113](https://www.openml.org/d/1113)|40|494020|23|
 |kin8nm|[https://www.openml.org/d/189](https://www.openml.org/d/189)|9|8192|2|
 |leukemia|[https://www.openml.org/d/1104](https://www.openml.org/d/1104)|7130|72|2|
