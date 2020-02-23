@@ -4,14 +4,9 @@ In this study, we focus on the Microlevel by empirically evaluating and analyzin
 ## Benchmark Datasets
 ### List of the datasets
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
 
-| Dataset ID    | Dataset URL   | # features   | # instances   | # classes     |
+| Dataset ID    | Dataset URL   | #features   | #instances   | #classes     |
 | ---| --- |--- | --- | --- |
 |     audiology   | https://www.openml.org/d/999 |70| 226  |2|
 |     arrhythmia   | https://www.openml.org/d/999 |280 | 452  |2|
