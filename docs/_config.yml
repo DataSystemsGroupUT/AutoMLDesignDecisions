@@ -1,5 +1,5 @@
 title: AutoML Micro Analysis
 sidebar_home_link: true
 description: A Micro Analysis for the Design Decisions of the AutoML Process
-theme: jekyll-theme-dinky
-
+#theme: jekyll-theme-dinky
+remote_theme: thesowah/wangana
