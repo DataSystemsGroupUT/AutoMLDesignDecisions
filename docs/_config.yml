@@ -2,3 +2,11 @@ title: AutoML Micro Analysis
 sidebar_home_link: true
 description: A Micro Analysis for the Design Decisions of the AutoML Process
 theme: jekyll-theme-dinky
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
