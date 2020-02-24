@@ -26,5 +26,5 @@
 ![time5](https://raw.githubusercontent.com/DataSystemsGroupUT/AutoMLMicroAnalysis/master/docs/data/027TimeBudgetIncreasingEffectAutoSKlearn4-30.png)
 ![time6](https://raw.githubusercontent.com/DataSystemsGroupUT/AutoMLMicroAnalysis/master/docs/data/028TimeBudgetIncreasingEffectAutoSKlearn4-60.png)
 ### Impact of Search Space
-
+![size](https://raw.githubusercontent.com/DataSystemsGroupUT/AutoMLMicroAnalysis/master/docs/data/Accuracyfcand3cfor30minutes.png)
 
