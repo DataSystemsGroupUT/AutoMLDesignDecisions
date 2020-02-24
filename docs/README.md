@@ -3,8 +3,9 @@ In this study, we focus on the Microlevel by empirically evaluating and analyzin
 * [Benchmark Datasets](https://datasystemsgrouput.github.io/AutoMLMicroAnalysis/datasets)
 * [Experiment Setup](https://datasystemsgrouput.github.io/AutoMLMicroAnalysis/setup)
 * [Results](https://datasystemsgrouput.github.io/AutoMLMicroAnalysis/results)
-  * Impact of Meta-learning 
-  * Impact of Ensembling 
-  * Impact of Time Budget 
+ * [Impact of Meta-learning](https://datasystemsgrouput.github.io/AutoMLMicroAnalysis/results#impact-of-meta-learning)
+ * [Impact of Ensembling](https://datasystemsgrouput.github.io/AutoMLMicroAnalysis/results#impact-of-ensembling)
+ * [Impact of Time Budget](https://datasystemsgrouput.github.io/AutoMLMicroAnalysis/results#impact-of-time-budget)
+ * [Impact of Search Space](https://datasystemsgrouput.github.io/AutoMLMicroAnalysis/results#impact-of-search-space)
 
 
