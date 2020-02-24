@@ -1,9 +1,9 @@
 
 ## Results
-* Impact of Meta-learning (#impact-of-meta-learning)
-* Impact of Ensembling (#impact-of-ensembling)
-* Impact of Time Budget (#impact-of-time-budget)
-* Impact of Search Space (#impact-of-search-space)
+* [Impact of Meta-learning] (#impact-of-meta-learning)
+* [Impact of Ensembling] (#impact-of-ensembling)
+* [Impact of Time Budget] (#impact-of-time-budget)
+* [Impact of Search Space] (#impact-of-search-space)
 
 ### Impact of Meta-learning
 ![meta1](https://raw.githubusercontent.com/DataSystemsGroupUT/AutoMLMicroAnalysis/master/docs/data/006MetaLearningEffectAll10min.png)
