@@ -1,11 +1,12 @@
 ## Benchmark Datasets
 We used 100 datasets from [OpenML](https://www.openml.org/) repository. We selected them to cover different characteristics of datasets including the number of classes, number of instances, number of features, etc.
 
+### Download Datasets
+[Compressed file download link.](https://drive.google.com/file/d/1YjI6UJhf5_VgQjQ1bCNLk3o-d6KY5-3W/) 
 ### List of the datasets
 
 | Dataset ID    | Dataset URL   | #features   | #instances   | #classes     |
 | ---| --- |--- | --- | --- |
-|aaaData_for_UCI_named|[-](-)|14|10000|2|
 |AirlinesCodrnaAdult|[https://www.openml.org/d/1240](https://www.openml.org/d/1240)|30|1076790|2|
 |Amazon|[https://www.openml.org/d/1457](https://www.openml.org/d/1457)|10001|1500|50|
 |analcatdata_authorship|[https://www.openml.org/d/458](https://www.openml.org/d/458)|71|841|4|
@@ -105,3 +106,4 @@ We used 100 datasets from [OpenML](https://www.openml.org/) repository. We selec
 |umistfacescropped|[https://www.openml.org/d/41084](https://www.openml.org/d/41084)|10305|575|20|
 |vowel|[https://www.openml.org/d/307](https://www.openml.org/d/307)|14|990|2|
 |wine-quality-red|[https://www.openml.org/d/40691](https://www.openml.org/d/40691)|12|1599|6|
+|aaaData_for_UCI_named|[-](-)|14|10000|2|
